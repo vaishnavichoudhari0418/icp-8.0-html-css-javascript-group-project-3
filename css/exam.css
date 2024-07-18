@@ -147,3 +147,32 @@ body {
         display: flex;
     }
 }
+header {
+    background:  #4d4d4d;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+  }
+  h1 {
+    margin: 0;
+    font-size: 2em;
+  }
+  
+  h2 {
+    margin: 5px 0;
+    font-size: 1.5em;
+    color: #fff;
+  }
+  
+  section {
+    padding: 20px;
+    border-bottom: 1px solid#4d4d4d;
+    animation: pulse 2s;
+  }
+  
+  h3 {
+    text-align: center;
+    font-size: 1.75em;
+    margin-bottom: 20px;
+    color: #fff;
+  }
