@@ -116,3 +116,34 @@ body {
     width: 25px;
     transition: all 0.3s;
 }
+
+
+@media (max-width: 768px) {
+    .nav-menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        background-color: #333;
+        padding: 0;
+    }
+
+    .nav-menu.active {
+        display: flex;
+    }
+
+    .nav-item {
+        margin-left: 12px;
+    }
+
+    .nav-item a {
+        padding: 10px;
+        border-top: 1px solid #444;
+    }
+
+    .hamburger-menu {
+        display: flex;
+    }
+}
