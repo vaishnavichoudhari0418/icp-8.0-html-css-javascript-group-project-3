@@ -1,3 +1,3 @@
-document.querySelector('.hamburger-menu').addEventListener('click', () => {
-    document.querySelector('.nav-menu').classList.toggle('active');
+document.getElementById('dropdown-items').addEventListener('click', function() {
+    document.getElementById('navMenu').classList.toggle('active');
 });
