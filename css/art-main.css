@@ -9,3 +9,16 @@
     background-color: rgb(156, 214, 214);
     border-radius: 10px;
   }
+  .sub-container{
+    margin: 20px;
+    padding:5px;
+color: white;
+text-align: align;
+width: 700px;
+height:270px ;
+  }
+  .content-img{
+   margin:20px ;
+    width: 500px;
+  }
+
