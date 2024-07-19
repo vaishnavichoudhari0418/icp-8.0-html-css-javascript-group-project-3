@@ -9,6 +9,11 @@
 </head>
 
 <body>
+
+    <img class="head-image-1" src="./images/index-page-images/head-image-1.jpg" alt="head image" />
+    <p class="headline-1">Build your Successful</p>
+    <p class="headline-2">Future with Career Crossroads</p>
+    <p class="headline-3">We Will Help You To Make Your Decision</p>
     <nav class="navbar">
         <div class="nav-logo">
             <a href="index.html">
@@ -17,7 +22,7 @@
             </a>
         </div>
 
-        <ul class="nav-menu">
+        <ul class="nav-menu" id="navMenu">
             <li class="nav-item"><a href="index.html">Home</a></li>
             <li class="nav-item dropdown">
                 <a href="#" class="dropbtn">Streams</a>
@@ -27,18 +32,50 @@
                     <a href="arts.html">Arts</a>
                 </div>
             </li>
+
+            <li class="nav-item"><a href="./pages/contact.html">About</a></li>
             <li class="nav-item"><a href="contact.html">Contact Us</a></li>
-            <li class="nav-item"><a href="login.html">Login</a></li>
+            <li class="nav-item"><a href="./pages/login.html">Login</a></li>
         </ul>
 
-        <div class="hamburger-menu">
+        <div class="dropdown-items" id="dropdown-items">
             <span></span>
             <span></span>
             <span></span>
         </div>
     </nav>
 
-    
+    <p class="explore-field">Explore your field which you want to looking for</p>
+    <p class="explore-field">Build Your Career</p>
+
+
+    <img src="./images/index-page-images/thinking-image.jpg" class="main-product-img" id="main-product-img" />
+
+    <div class="product-img-container">
+        <img src="./images/index-page-images/science-icon.png" class="product-img"
+            onclick="changeImage('./images/index-page-images/science-image.jpg')" />
+
+        <img src="./images/index-page-images/commerce-icon.png" class="product-img"
+            onclick="changeImage('./images/index-page-images/commerce-image.jpg')" />
+
+        <img src="./images/index-page-images/art-icon.png" class="product-img"
+            onclick="changeImage('./images/index-page-images/art-image.jpg')" />
+    </div>
+
+    <div class="stream-name">
+        <p>Science&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;</p>
+        <p>Commerce &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp; </p>
+        <p>Art &nbsp;  &nbsp;</p>
+    </div>
+
+     
+
+
+
+
+
+
+
     <script src="./javascript/index.js"></script>
 
 </body>
