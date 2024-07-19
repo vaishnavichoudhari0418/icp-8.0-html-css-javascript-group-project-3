@@ -148,7 +148,7 @@ body {
     }
 }
 header {
-    background:  #4d4d4d;
+    background:  #404040;
     padding: 20px;
     text-align: center;
     color: #fff;
@@ -166,7 +166,7 @@ header {
   
   section {
     padding: 20px;
-    border-bottom: 1px solid#4d4d4d;
+    border-bottom: 1px solid#404040;
     animation: pulse 2s;
   }
   
@@ -175,4 +175,22 @@ header {
     font-size: 1.75em;
     margin-bottom: 20px;
     color: #fff;
+  }
+  .content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .text ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .text ul li {
+    background: #e9ecef;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    animation: pulse 2s;
   }
