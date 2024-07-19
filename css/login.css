@@ -4,7 +4,7 @@
   padding: 0;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+
 }
 
 /*NAVBAR*/
@@ -356,7 +356,7 @@ body::after {
   font-size: 2rem;
   color: #ff6347;
   text-align: center;
-  margin-bottom: 1rem;
+  margin-bottom: 10px;
   font-weight: 600;
 }
 
@@ -394,6 +394,7 @@ body::after {
   width: 40px;
   height: 40px;
   border-radius: 50%;
+
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -403,7 +404,7 @@ body::after {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  color: #f8f8f8;
+  color: #eeeeee;
   font-size: 18px;
   -webkit-transition: all linear 0.3s;
   transition: all linear 0.3s;
@@ -428,7 +429,8 @@ body::after {
 .form-wrapper__divider {
   text-align: center;
   font-size: 16px;
-  color: #000000;
+  color: #dad0d0; 
+  margin: 8px;
 }
 
 .form-wrapper__divider:nth-of-type(2) {
@@ -446,16 +448,16 @@ body::after {
   text-align: center;
   display: inline-block;
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 20px;
   padding: 5px;
   color: #ff6347;
   -webkit-transition: all linear 0.3s;
-  transition: all linear 0.3s;
+  transition: all linear 0.3s; /* sign up*/
 }
 
 .form-wrapper__signInBtn:hover {
   color: #f0e0e0;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 #mainForm {
@@ -472,6 +474,8 @@ body::after {
 #mainForm label {
   margin-top: 12px;
   color: #f0efef;
+  font-size: 20px;
+  margin-bottom: 3px; /* username and password*/
 }
 
 #mainForm .user-wrapper,
@@ -482,10 +486,10 @@ body::after {
 #mainForm .user-wrapper::after,
 #mainForm .password-wrapper::after {
   position: absolute;
-  font-family: "Font Awesome 5 Free";
+  font-family: "Font Awesome 5 Free"; /*input field*/
   top: 50%;
   left: 8px;
-  color: #000000;
+  color: #070606;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
   pointer-events: none; /* change pointer*/
@@ -502,14 +506,14 @@ body::after {
 
 #mainForm input {
   border: 0;
-  font-size: 14px;
+  font-size: 14px; /*input text*/
   padding: 10px;
   padding-left: 30px;
   color: #000000;
   font-weight: 400;
   margin-bottom: 8px;
   width: 100%;
-  caret-color: #ff6347;
+  caret-color: #110b0a;
   outline: none;
   border-radius: 20px;
 }
@@ -540,14 +544,14 @@ body::after {
 
 #mainForm .mainForm__forgotBtn {
   padding: 5px;
-  color: #e9e7e7;
+  color: #fcfcfc;
   text-align: right;
-  font-size: 13px;
+  font-size: 16px;
   float: right;
   margin-left: auto;
   margin-bottom: 20px;
   -webkit-transition: all linear 0.3s;
-  transition: all linear 0.3s;
+  transition: all linear 0.3s; /* forget password*/
 }
 
 #mainForm .mainForm__forgotBtn:hover {
@@ -559,12 +563,12 @@ body::after {
   border: 0;
   border-radius: 20px;
   padding: 10px 0;
-  font-size: 13px;
+  font-size: 18px;
   color: #f0ecec;
-  background: black;
+  border: 2px solid black;
   cursor: pointer;
   font-weight: 600;
-  margin-bottom: 20px;
+  margin-bottom: 20px; /* login */
 }
 
 #mainForm__subBtn:hover{
