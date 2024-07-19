@@ -4,8 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Career Crossroads</title>
+    <link rel="stylesheet" href="../css/login.css">
 </head>
 <body>
-    
+    <div class="form-wrapper">
+        <h2 class="form-wrapper__title">Login</h2>
+        <form action="#" method="post" id="mainForm" autocomplete="off">
+            <label for="userName">Username</label>
+            <div class="user-wrapper"><input type="text" id="userName" placeholder="Type Your Username" required></div>
+            <label for="password">Password</label>
+            <div class="password-wrapper"><input type="password" id="password" placeholder="Type Your Password" required></div>
+            <a href="#" class="mainForm__forgotBtn">Forgot password?</a>
+            <button type="submit" id="mainForm__subBtn">Login</button>
+        </form>
+        <div class="form-wrapper__divider">Or Sign Up Using</div>
+        <ul class="social-icons">
+            <li><a href="https://www.facebook.com/" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="https://x.com/" class="twitter"><i class="fa-brands fa-x-twitter"></i></a></li>
+            <li><a href="https://accounts.google.com/" class="google"><i class="fab fa-google"></i></a></li>
+        </ul>
+        <div class="form-wrapper__divider">Don't have a account</div>
+        <a href="#" class="form-wrapper__signInBtn">Sign Up</a>
+    </div>
+    <script src="https://kit.fontawesome.com/9b85b1e176.js" crossorigin="anonymous"></script>
 </body>
 </html>
