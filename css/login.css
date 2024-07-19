@@ -328,7 +328,8 @@ body::after {
   margin-top: 70PX;
   width: 100%;
   height: auto;
-  max-height: 600px; background: linear-gradient();
+  max-height: 565px; 
+  background: linear-gradient();
   backdrop-filter: blur(3px);
   padding: 50px 40px;
   border-radius: 10px;
