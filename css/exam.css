@@ -180,6 +180,7 @@ header {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    margin: 20px 40px;
   }
   
   .text ul {
@@ -192,5 +193,24 @@ header {
     margin: 10px 0;
     padding: 10px;
     border-radius: 5px;
-    animation: pulse 2s;
+  }
+    
+  .course, .review {
+    flex: 1 1 20%;
+    background: #f8f9fa;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    align-items: start;
+  }
+  
+  .course h4, .review h4 {
+    margin-top: 0;
+  }
+  
+  .course p, .review p {
+    font-size: 0.9em;
+    color: #6c757d;
   }
