@@ -70,3 +70,8 @@ font-family:'Times New Roman', Times, serif;
   border: 1px solid #ddd;
   box-shadow: 0 0 10px  rgba(0, 0, 0, 0.1);
 }
+.card-grid{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap:20px;
+}
