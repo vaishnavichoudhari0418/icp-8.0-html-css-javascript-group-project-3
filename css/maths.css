@@ -1,3 +1,9 @@
+body {
+    @import url(https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap);
+    margin: 0;
+    padding: 0;
+    background-color: #0f0e17;
+}
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -138,6 +144,65 @@
 
     .dropdown-items {
         display: flex;
-        
+
     }
 }
+
+@media (max-width: 768px) {
+    .nav-menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        background-color: #333;
+        padding: 0;
+    }
+
+    .nav-menu.active {
+        display: flex;
+    }
+
+    .nav-item {
+        margin-left: 30px;
+    }
+
+    .nav-item a {
+        padding: 10px;
+        border-top: 1px solid #444;
+    }
+
+    .dropdown-items {
+        display: flex;
+    }
+}
+header {
+    background:  #404040;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+  }
+  h1 {
+    margin: 0;
+    font-size: 2em;
+  }
+  
+  h2 {
+    margin: 5px 0;
+    font-size: 1.5em;
+    color: #fff;
+  }
+  
+  section {
+    padding: 20px;
+    border-bottom: 1px solid#404040;
+    animation: pulse 2s;
+  }
+  
+  h3 {
+    text-align: center;
+    font-size: 1.75em;
+    margin-bottom: 20px;
+    color: #fff;
+  }
