@@ -82,9 +82,14 @@ font-family:'Times New Roman', Times, serif;
   border: 1px solid #ff8906;
   box-shadow:  0 0 2px 2px #ff8906;
 }
-
 .sub-h1{
   color: white;
   text-align: center;  
 }
-
+.sub-link{
+  text-decoration: none;
+  color: white;
+}
+.a-text{
+  text-align:center ;
+}
