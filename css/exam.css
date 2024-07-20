@@ -214,3 +214,32 @@ header {
     font-size: 0.9em;
     color: #6c757d;
   }
+  .container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 20px auto;
+    justify-content: space-between;
+}
+.card{
+    width: 350px;
+    border: #171F3B solid 2px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: 1s ease-in;
+    border-radius: 10px;
+}
+.imgbg img{
+    width: 250px;
+    border-radius: 10px;
+    height: 250px;
+    margin: 20px;
+}
+.card:hover{
+   border:  #2C5F88 solid 3px;
+   box-shadow: #2C5F88 0px 0px 5px;
+}
