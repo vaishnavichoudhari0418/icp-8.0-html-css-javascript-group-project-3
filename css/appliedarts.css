@@ -2,7 +2,7 @@ header {
   color: #f25f4c;
   padding: 20px;
   text-align: center;
-  margin-top: 30px;
+  margin-top: 150px;
 }
 
 h1 {
@@ -67,6 +67,7 @@ h3 {
 .text ul li:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  background-color: #e9e9e9;
 }
 
 
