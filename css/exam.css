@@ -214,3 +214,140 @@ header {
     font-size: 0.9em;
     color: #6c757d;
   }
+  .container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 20px auto;
+    justify-content: space-between;
+}
+.card{
+    width: 350px;
+    border: #171F3B solid 2px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: 1s ease-in;
+    border-radius: 10px;
+    color: #fffffe;
+    margin: 20px;
+}
+.imgbg img{
+    width: 250px;
+    border-radius: 20px;
+    height: 250px;
+    margin: 20px;
+}
+.card:hover{
+   border:  #2C5F88 solid 3px;
+   box-shadow: #2C5F88 0px 0px 5px;
+}
+.ias-sc{
+    text-align: center;
+    margin: 40px;
+    color: #fffffe;
+}
+.button {
+    display: inline-block;
+    border-radius: 6px;
+    background-color: #fffffe;
+    border: none;
+    color: black;
+    text-align: center;
+    width: 80px;
+    height: 40px;
+    transition: all 0.5s;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content:icon;
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 10px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  .link{
+    text-decoration: none;
+    text-align: center;
+    color: #0f0e17;
+  }
+
+.row:hover{
+    border: #2C5F88 solid 3px;
+}
+.info-img img{
+    height: 200px;
+    width: 350px;
+    border-radius: 10px;
+}
+.info{
+    width: 50%;
+}
+.info h1{
+    text-align: center;
+}
+.info h3{
+    margin: 10px 0;
+    font-size: 25px;
+}
+.info p{
+    font-size: 15px
+}
+.row-info{
+    color: #fffffe;
+}
+.row{
+    display: flex;
+    margin: 10px auto;
+    padding: 19px;
+    width: 90%;
+    justify-content: space-around;
+    border: #f25f4c solid 2px;
+    border-radius: 10px;
+    transition: 1s ease-in-out;
+    margin-top: 30px;
+    color: #fff;
+  }
+
+  .btn{
+    margin: 5px;
+    height: 30px;
+    width: 80px;
+    background-color: #f25f4c;
+    padding: 3px;
+    border-radius: 5px  ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .btn a{
+    list-style-type: none;
+    text-decoration:none ;
+    font-size: 15px;
+    color: #fff;
+  }
+  .btn:hover{
+    background-color:#f25f4c ;
+  }
