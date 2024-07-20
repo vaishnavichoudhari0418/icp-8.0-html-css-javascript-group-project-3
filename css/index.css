@@ -216,11 +216,13 @@ body {
     color: #fffffe;
     margin-top: 80px;
     text-align: center;
+    display: block;
 }
 
 .card-stream-heading-2 {
     color: #fffffe;
     margin-left: 10px;
+    margin-top: 50px;
 }
 
 .card-heading-content {
@@ -237,6 +239,7 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     padding: 20px;
+    margin-top: 50px;
 }
 
 .card {
