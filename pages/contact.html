@@ -27,9 +27,8 @@
                     <a href="arts.html">Arts</a>
                 </div>
             </li>
-    
+            <li class="nav-item"><a href="./pages/about.html">About Us</a></li>
             <li class="nav-item"><a href="./pages/contact.html">Contact Us</a></li>
-            <li class="nav-item"><a href="contact.html">Contact Us</a></li>
             <li class="nav-item"><a href="./pages/login.html">Login</a></li>
         </ul>
     
@@ -42,23 +41,26 @@
     
     <div class="up-body">
         <h2 class="heading">Contact us</h2>
-        <form action="#">
+
+        <form action="#" id="contactForm">
           <div class="form-fill">
+
             <label for="name" class="">Enter your name</label>  
             <input type="text" name="name" id="name">  <br>
 
             <label for="num">Enter Your Number</label>  
-            <input type="number" name="num" id="num">  <br>
+            <input type="tel" name="num" id="num" maxlength="10">  <br>
 
             <label for="email">Enter Your mail</label> 
             <input type="email" name="email" id="email">  <br>
             <label for="feedback">Your Feedback/Message</label> 
             <textarea name="feedback" id="feedback" cols="30" rows="3"></textarea>
-            <button type="submit" class="btn">Submit</button>
+            <button type="submit" class="btn" id="submitBtn">Submit</button>
         </div>
         </form>
 
     </div>
+    <script src="./../javascript/contact_form.js"></script>
 
 </body>
 </html>
