@@ -233,6 +233,7 @@ header {
     transition: 1s ease-in;
     border-radius: 10px;
     color: #fffffe;
+    margin: 20px;
 }
 .imgbg img{
     width: 250px;
@@ -251,16 +252,15 @@ header {
 }
 .button {
     display: inline-block;
-    border-radius: 4px;
+    border-radius: 6px;
     background-color: #fffffe;
     border: none;
     color: black;
     text-align: center;
-    padding: 5px;
-    width: 110px;
+    width: 80px;
+    height: 40px;
     transition: all 0.5s;
     cursor: pointer;
-    margin: 5px;
     text-decoration: none;
   }
   
