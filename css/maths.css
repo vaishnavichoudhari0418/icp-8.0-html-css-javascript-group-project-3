@@ -249,7 +249,11 @@ header {
     color: #555;
     
 }
-
+.ias-sc{
+    text-align: center;
+    margin: 40px;
+    color: #fffffe;
+}
 
 
 .row:hover{
@@ -306,7 +310,7 @@ header {
     font-size: 15px;
     color: #fff;
   }
-  
+
   .btn:hover{
     background-color:#f25f4c ;
   }
