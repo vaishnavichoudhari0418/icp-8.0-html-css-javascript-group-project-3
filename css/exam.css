@@ -293,3 +293,37 @@ header {
     text-align: center;
     color: #0f0e17;
   }
+  row{
+    display: flex;
+    margin: 10px auto;
+    padding: 19px;
+    width: 90%;
+    justify-content: space-around;
+    border: #171F3B solid 2px;
+    border-radius: 10px;
+    transition: 1s ease-in-out;
+    margin-top: 30px;
+}
+.row:hover{
+    border: #2C5F88 solid 3px;
+}
+.info-img img{
+    height: 200px;
+    width: 350px;
+    border-radius: 10px;
+}
+.info{
+    width: 50%;
+}
+
+.info h3{
+    margin: 10px 0;
+    font-size: 25px;
+}
+.info p{
+    font-size: 15px
+}
+.row-info{
+    color: #fffffe;
+}
+
