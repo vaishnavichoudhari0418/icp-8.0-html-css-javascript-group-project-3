@@ -215,6 +215,52 @@ body {
 
 
 
+.brand-img-footer {
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.footer {
+    background-color: #29303b;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-social-icons {
+    margin-bottom: 20px;
+}
+
+.footer-social-icons .social-icon {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-social-icons img {
+    width: 30px;
+    height: 30px;
+    filter: invert(100%);
+}
+
+.footer-links {
+    margin-bottom: 20px;
+}
+
+.footer-links a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+
+
+
 
 
 
