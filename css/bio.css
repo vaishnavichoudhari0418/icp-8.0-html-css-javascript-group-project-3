@@ -188,7 +188,7 @@ header {
     font-size: 2em;
   }
   
-  h2 {
+  .head{
     margin: 5px 0;
     font-size: 1.5em;
     color: #fff;
