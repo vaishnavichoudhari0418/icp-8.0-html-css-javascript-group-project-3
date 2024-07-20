@@ -77,7 +77,11 @@ font-family:'Times New Roman', Times, serif;
   border-radius:10px;
   box-shadow:  0 0 2px 2px rgb(155, 153, 153)  ;
 }
-
+.card:hover{
+  cursor: pointer;
+  border: 1px solid #ff8906;
+  box-shadow:  0 0 2px 2px #ff8906;
+}
 
 .sub-h1{
   color: white;
