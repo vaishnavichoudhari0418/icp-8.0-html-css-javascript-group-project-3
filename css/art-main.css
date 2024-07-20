@@ -21,7 +21,7 @@
 }
 .headingbq{
 font-size: 24px;
-margin-bottom:20px ;
+margin-bottom:20px;
 }
 .sub-para{
   font-size: 18px;
@@ -62,45 +62,72 @@ font-size: 20px;
 margin-left: 40px;
 font-family:'Times New Roman', Times, serif;
 }
-.subject-container{
-  max-width: 800px;
-  margin: 40px auto;
-  padding: 20px;
-  background-color:#f9f9f9 ;
-  border: 1px solid #ddd;
-  box-shadow: 0 0 10px  rgba(0, 0, 0, 0.1);
-}
-.card-grid{
-  display: grid;
-  grid-template-columns: repeat(3,1fr);
-  grid-gap:20px;
+.card-container{
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: center;
 }
 .card{
-  background-color:#fff ;
-  padding: 20px;
+  color: white;
+  text-align: center;
+  width:200px;
+  margin: 10px;
+  padding: 15px;
   border: 1px solid #ddd;
-  border-radius: 20px;
-  box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.1);
+  border-radius:10px;
+  box-shadow:  0 0 2px 2px rgb(155, 153, 153)  ;
+}
+.card:hover{
+  cursor: pointer;
+  border: 1px solid #ff8906;
+  box-shadow:  0 0 2px 2px #ff8906;
 }
 .sub-h1{
+  color: white;
+  text-align: center;  
+}
+.sub-link{
+  text-decoration: none;
+  color: white;
+}
+.a-text{
+  text-align:center ;
+}
+.career-h1{
   text-align: center;
+  margin-bottom:20px;
+  color: white;
 }
-.card h2{
-  margin-top: 0;
-  text-align: center;
+.career-container{
+max-width: 800px;
+margin: 40px auto;
+padding: 20px;
+color:white;
+border: 1px solid white;
+border-radius: 20px;
+box-shadow: 0 0  1px 1px whitesmoke;
 }
-.card ul{
-  padding: 0;
-  margin: 0;
+.career-card{
+  background-color:  #404040;  
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 0 0 10px  #404040;
 }
-.card li{
-  padding: 5px;
-  border-bottom: 1px solid #ddd;
-
+.career-card-content{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
-.card li:last-child{
-  border-bottom: none;
+.career-card-content span{
+  margin:10px;
 }
-.card li:hover{
-background-color: #9b9898;
+.button{
+  background-color: #ff8906 ;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;
 }
