@@ -74,3 +74,39 @@ input[type="submit"]{
 input[type="submit"]:hover{
 	background: #2c3e50;
 }
+
+.discount-heading {
+	color: #0f0e17; 
+	margin-right: 30px; 
+	margin-top: 20px;
+	text-align: center;
+}
+
+.discount-btn {
+	display: block; 
+	margin: 20px auto;
+	color: #fffffe;
+	background-color: #0f0e17;
+	height: 40px;
+	width:150px;
+	border-radius: 7px;
+	cursor: pointer;
+}
+
+.discount-btn:hover {
+	background: #2c3e50;
+}
+
+.discount-text {
+	text-align: center;
+}
+
+
+@media only screen and (max-width: 770px){
+	.container{
+		flex-direction: column;
+	}
+	body{
+		overflow-x: hidden;
+	}
+}
