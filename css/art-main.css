@@ -99,15 +99,18 @@ font-family:'Times New Roman', Times, serif;
   color: white;
 }
 .career-container{
-max-width: 800px;
+max-width: 1300px;
 margin: 40px auto;
 padding: 20px;
 color:white;
-border: 1px solid white;
+border: 1px solid rgb(13, 13, 13);
 border-radius: 20px;
-box-shadow: 0 0  1px 1px whitesmoke;
+
 }
 .career-card{
+  background-image: url("");
+  background-size:cover;
+  height: 230px;
   background-color:  #404040;  
   padding: 20px;
   margin-bottom: 20px;
