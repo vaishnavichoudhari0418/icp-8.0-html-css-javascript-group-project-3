@@ -9,46 +9,39 @@
     background-image: url('../images/science-page-images/back_img.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
+    padding-top:150px ;
+    
 
 }
 .text{
     font-size: 50px;
-    position: fixed;
-    top:0;
-    margin-top: 200px;
     font-family: "Oswald", sans-serif;
     color:beige;
     margin-left: 30px;
+
 }
 .text2{
     font-size: 50px;
-    position: fixed;
-    top:0;
-    margin-top: 270px;
     font-family: "Oswald", sans-serif;
     color: beige;
     margin-left: 30px;
 }
 .text3{
     font-size: 50px;
-    position: fixed;
-    top:0;
-    margin-top: 340px;
     font-family: "Oswald", sans-serif;
     color: beige;
     margin-left: 30px;
 }
 .text4{
     font-size: 25px;
-    position:fixed;
     color:#fffffe;
     letter-spacing: 0.2rem;
     font-family: "Outfit", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 100;
-  font-style: normal;
-  margin-top:360px ;
-  margin-left: 30px;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    margin-left: 30px;
 }
 .color{
    color: #66ff33;
@@ -63,15 +56,148 @@
     font-style: normal;
     font-size: 18px;
     border: 2px solid  #ff8906;
-    margin-top: 400px;
     margin-left: 30px;
     border-radius: 30px;
-    position: fixed;
     cursor: pointer;
+    margin-top: 20px;
 
 }
+.container1{
+    display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      background-color: #333;
+      height: 590px;
+      width: auto;
+      margin-top: 100px;
 
+}
+.sub-container{
+    width: 650px;
+    height:270px ;
+    margin: 20px ;
+    padding:5px;
+    color: white;
+    text-align: align;
+}
 
+.history{
+    color:#fffffe;
+    margin-left: 40px;
+    font-size: 18px;
+    font-family: "Outfit", sans-serif;
+    }
+.history_img{
+    width: 600px;
+    height: 400px;
+    background-image: url("../images/science-page-images/history_of_science.jpg");
+    background-size: cover;
+    box-shadow: beige 0px 5px 15px;
+    animation: changeimg 20s linear infinite;
+    padding :25px;
+    margin-top: 50px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+@keyframes changeimg{
+ 0%{
+    background-image: url("../images/science-page-images/history_of_science.jpg");
+ }
+ 25%{
+    background-image: url("../images/science-page-images/history_of_science2.jpg");
+ }
+ 50%{
+    background-image: url("../images/science-page-images/history_of_science3.jpg");
+ }
+ 75%{
+    background-image: url("../images/science-page-images/history_of_science4.jpg");
+}
+}
+
+.container2{
+    background-color: #333;
+    height: 650px;
+    width: auto;
+    border: 1px solid black;
+
+}
+h1{
+    color: #fffffe;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-size: 50px;
+ 
+
+}
+.content_maths{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px 40px;
+
+}
+.courses{
+    height: 300px;
+    width: 250px;
+    background-color: #fffffe;
+    border: 10px ;
+    border-style: ridge;
+    border-color: #66ff33 #ff6347;
+    margin-top: 40px; 
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    transition: 1s ease-in;
+    animation: pulse 2s;
+   }
+   @keyframes pulse {
+    0% {
+      transform: scale(0.9);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+.course_img{
+    height: 110px;
+    display: block;
+    margin: 0 60px;
+    padding: 10px;
+    text-decoration: none;
+    
+}
+.course_img1{
+    height: 100px;
+    display: block;
+    margin: 0 20px;
+    padding: 10px; 
+}
+h2{
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 30px;
+    text-decoration: none;
+    }
+.card5{
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 40px;
+    }
+
+    
+
+    
+
+  
+  
+ 
 
 .navbar {
     display: flex;
@@ -83,6 +209,7 @@
     top: 0px;
     width: 100%;
 }
+
 
 .nav-logo a {
     display: flex;
@@ -114,7 +241,6 @@
 
 .nav-item {
     margin-left: 20px;
-    position: relative;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -135,7 +261,7 @@
 
 .dropdown-content {
     display: none;
-    position: absolute;
+    position: fixed;
     background-color: #333;
     min-width: 160px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
@@ -216,13 +342,6 @@
     position: relative;
     top: -400px;
 }
-
-
-
-
-
-
-
 
 .main-product-img {
     width: 900px;
