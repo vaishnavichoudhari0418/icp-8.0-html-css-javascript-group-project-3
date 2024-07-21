@@ -11,6 +11,7 @@ body {
     background-color: #333;
     padding: 10px 20px;
     position: relative;
+    
 }
 
 .nav-logo a {
@@ -177,8 +178,9 @@ body {
         display: flex;
     }
 }
+
 header {
-    background:  #404040;
+    background:  #0f0e17;
     padding: 20px;
     text-align: center;
     color: #fff;
