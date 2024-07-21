@@ -148,10 +148,10 @@ body {
     }
 }
 header {
-    background:  #404040;
     padding: 20px;
     text-align: center;
     color: #fff;
+    animation: fade-in 2s; 
   }
   h1 {
     margin: 0;
@@ -159,9 +159,10 @@ header {
   }
   
   h2 {
-    margin: 5px 0;
+    margin: 20px;
     font-size: 1.5em;
     color: #fff;
+    animation: fade-in 2s; 
   }
   
   section {
@@ -175,6 +176,7 @@ header {
     font-size: 1.75em;
     margin-bottom: 20px;
     color: #fff;
+    animation: pulse 2s;
   }
   .content {
     display: flex;
@@ -193,6 +195,7 @@ header {
     margin: 10px 0;
     padding: 10px;
     border-radius: 5px;
+    animation: pulse 2s;
   }
     
   .course, .review {
@@ -204,6 +207,7 @@ header {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     text-align: center;
     align-items: start;
+    animation: pulse 2s;
   }
   
   .course h4, .review h4 {
@@ -234,12 +238,14 @@ header {
     border-radius: 10px;
     color: #fffffe;
     margin: 20px;
+    animation: pulse 2s;
 }
 .imgbg img{
     width: 250px;
     border-radius: 20px;
     height: 250px;
     margin: 20px;
+    animation: pulse 2s;
 }
 .card:hover{
    border:  #2C5F88 solid 3px;
@@ -262,6 +268,7 @@ header {
     transition: all 0.5s;
     cursor: pointer;
     text-decoration: none;
+    animation: pulse 2s;
   }
   
   .button span {
@@ -301,6 +308,7 @@ header {
     height: 200px;
     width: 350px;
     border-radius: 10px;
+    animation: pulse 2s;
 }
 .info{
     width: 50%;
@@ -329,6 +337,7 @@ header {
     transition: 1s ease-in-out;
     margin-top: 30px;
     color: #fff;
+    animation: pulse 2s;
   }
 
   .btn{
@@ -341,6 +350,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    animation: pulse 2s;
   }
   .btn a{
     list-style-type: none;
@@ -351,3 +361,96 @@ header {
   .btn:hover{
     background-color:#f25f4c ;
   }
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slide-in {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes bounce-in {
+    0% {
+      transform: scale(0.5);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  @keyframes zoom-in {
+    0% {
+      transform: scale(0.5);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  @keyframes slide-up {
+    0% {
+      transform: translateY(100%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(0.9);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  @keyframes rotate-in {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  #search-results{
+    text-align: center;
+    color: black;
+    margin: 20px;
+  }
+  .search-container{
+    max-width: 450px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  #search-input{
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+  }
+#search-btn{
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
