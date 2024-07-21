@@ -153,11 +153,6 @@
 
 
 
-
-
-
-
-
 @media screen and (min-width: 769px) and (max-width: 992px) {
   .headline-1 {
       font-size: 50px;
@@ -170,13 +165,6 @@
   }
 
 }
-
-
-
-
-
-
-
 
 
 @media (max-width: 768px) {
@@ -235,6 +223,7 @@
       font-size: 20px;
   }
 }
+
 
 
 /*LOGIN FORM*/
@@ -442,12 +431,12 @@ form input {
 
 form .field input:focus,
 form .field.valid input {
-  border-color: #5372f0;
+  border-color: #ff6347;
 }
 
 form .field.shake input,
 form .field.error input {
-  border-color: #dc3545;
+  border-color: #ff6347;
 }
 
 .field .input-area i {
@@ -466,7 +455,7 @@ form .field.error input {
 
 .input-area .error-icon {
   right: 15px;
-  color: #dc3545;
+  color: #ff6347;
 }
 
 form input:focus ~ .icon,
