@@ -289,20 +289,23 @@ body {
 .know-more-btn-container {
     display: flex;
     justify-content: center;
-    align-items: center;
+
 }
 
 
 .know-more-btn {
-   margin: 50px auto;
-   ali
-    
-    height: 500px;
+    height: 50px;
     width: 150px;
+    margin-top: 50px;
     border-radius: 10px;
-    font: 500 bold;
+    font-size: large;
     color: #fffffe;
     background-color: #ff8906;
+    cursor: pointer;
+}
+
+.know-more-btn:hover {
+    transform: translateY(-10px);
 }
 
 
@@ -406,63 +409,68 @@ body {
 
 
 
-    @media (max-width: 768px) {
-        .nav-menu {
-            display: none;
-            flex-direction: column;
-            width: 100%;
-            position: absolute;
-            top: 50px;
-            left: 0;
-            background-color: #333;
-            padding: 0;
-        }
-
-        .nav-logo img {
-            width: 30px;
-            height: 30px;
-        }
-
-        .nav-logo a {
-            font-size: 20px;
-        }
-
-        .nav-menu.active {
-            display: flex;
-        }
-
-        .nav-item {
-            margin-left: 30px;
-        }
-
-        .nav-item a {
-            padding: 10px;
-            border-top: 1px solid #444;
-        }
-
-        .dropdown-items {
-            display: flex;
-        }
-
-        .head-image-1 {
-            float: right;
-        }
-
-        .headline-1 {
-            font-size: 32px;
-        }
-
-        .headline-2 {
-            font-size: 32px;
-            position: relative;
-            top: -650px;
-        }
-
-        .headline-3 {
-            font-size: 20px;
-        }
-
-        .main-product-img {
-            width: 300px;
-        }
+@media (max-width: 768px) {
+    .nav-menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        background-color: #333;
+        padding: 0;
     }
+
+    .nav-logo img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .nav-logo a {
+        font-size: 20px;
+    }
+
+    .nav-menu.active {
+        display: flex;
+    }
+
+    .nav-item {
+        margin-left: 30px;
+    }
+
+    .nav-item a {
+        padding: 10px;
+        border-top: 1px solid #444;
+    }
+
+    .dropdown-items {
+        display: flex;
+    }
+
+    .head-image-1 {
+        float: right;
+    }
+
+    .headline-1 {
+        font-size: 32px;
+    }
+
+    .headline-2 {
+        font-size: 32px;
+        position: relative;
+        top: -650px;
+    }
+
+    .headline-3 {
+        font-size: 20px;
+    }
+
+    .main-product-img {
+        width: 300px;
+    }
+
+    .card {
+        width: 400px;
+        border-radius: 10px;
+    }
+}
