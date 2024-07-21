@@ -153,11 +153,6 @@
 
 
 
-
-
-
-
-
 @media screen and (min-width: 769px) and (max-width: 992px) {
   .headline-1 {
       font-size: 50px;
@@ -170,13 +165,6 @@
   }
 
 }
-
-
-
-
-
-
-
 
 
 @media (max-width: 768px) {
@@ -235,6 +223,7 @@
       font-size: 20px;
   }
 }
+
 
 
 /*LOGIN FORM*/
