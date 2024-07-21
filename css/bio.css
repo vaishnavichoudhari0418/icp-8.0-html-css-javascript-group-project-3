@@ -178,7 +178,7 @@ body {
     }
 }
 header {
-    background: #0f0e17;
+    background:  #404040;
     padding: 20px;
     text-align: center;
     color: #fff;
@@ -188,7 +188,7 @@ header {
     font-size: 2em;
   }
   
-  .head {
+  .head{
     margin: 5px 0;
     font-size: 1.5em;
     color: #fff;
@@ -205,7 +205,7 @@ header {
     font-size: 1.75em;
     margin-bottom: 20px;
     color: #fff;
-
+    
   }
   .container {
     display: flex;
@@ -249,70 +249,10 @@ header {
     color: #555;
     
 }
-.ias-sc{
+.btn{
     text-align: center;
-    margin: 40px;
-    color: #fffffe;
+    border-radius: 10px 10px;
+    color: #0f0e17;
+    background-color: #fffffe;
+    margin: auto;
 }
-
-
-.row:hover{
-    border: #2C5F88 solid 3px;
-}
-.info-img img{
-    height: 200px;
-    width: 350px;
-    border-radius: 10px;
-}
-.info{
-    width: 50%;
-}
-.info h1{
-    text-align: center;
-}
-.info h3{
-    margin: 10px 0;
-    font-size: 25px;
-}
-.info p{
-    font-size: 15px
-}
-.row-info{
-    color: #fffffe;
-}
-.row{
-    display: flex;
-    margin: 10px auto;
-    padding: 19px;
-    width: 90%;
-    justify-content: space-around;
-    border: #f25f4c solid 2px;
-    border-radius: 10px;
-    transition: 1s ease-in-out;
-    margin-top: 30px;
-    color: #fff;
-  }
-
-  .btn{
-    margin: 5px;
-    height: 30px;
-    width: 80px;
-    background-color: #f25f4c;
-    padding: 3px;
-    border-radius: 5px  ;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .btn a{
-    list-style-type: none;
-    text-decoration:none ;
-    font-size: 15px;
-    color: #fff;
-  }
-
-  .btn:hover{
-    background-color:#f25f4c ;
-  }
-
-
