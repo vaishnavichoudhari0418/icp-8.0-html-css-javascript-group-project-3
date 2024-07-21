@@ -211,7 +211,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-   gap: 20px;
+   gap: 50px;
    padding: 20px;
    justify-content: center;
    flex-direction: row;
@@ -251,13 +251,16 @@ header {
 }
 .btn{
     text-align: center;
-    border-radius: 10px 10px;
-    color: #0f0e17;
+    border-radius:  6px;
+    color:white;
     background-color: #fffffe;
     margin: auto;
+    border:none;
+    height:40px;
+    width: 80px;
 }
 .ias-sc{
-    text-align: center;
+    text-align:center;
     margin: 40px;
     color: #fffffe;
 }
