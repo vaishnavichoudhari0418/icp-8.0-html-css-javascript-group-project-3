@@ -5,6 +5,7 @@ body {
     padding: 0;
     background-color: #0f0e17;
     box-sizing: border-box;
+    font-family: poppins;
 }
 
 .head-image-1 {
@@ -160,7 +161,7 @@ body {
     font: 50px bold;
     color: #fffffe;
     text-align: center;
-    position: relative;
+    position: relativ;
     top: -200px;
 }
 
@@ -172,13 +173,12 @@ body {
 
 
 .main-product-img {
-    width: 900px;
+    height: 350px;
     object-fit: cover;
     display: block;
     margin: 0px auto;
     border: 1px solid black;
     border-radius: 20px;
-    box-shadow: 0px 5px 10px 0px rgba(0, 255, 255, 0.7);
     margin-top: 0px;
 }
 
@@ -212,6 +212,119 @@ body {
     color: #fffffe;
 }
 
+.card-stream-heading {
+    color: #fffffe;
+    margin-top: 80px;
+    text-align: center;
+    display: block;
+}
+
+.card-stream-heading-2 {
+    color: #fffffe;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+
+.card-heading-content {
+    color: #a7a9be;
+    margin-left: 10px;
+}
+
+
+
+
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 100px;
+}
+
+.card {
+    background: #fffffe;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    width: 300px;
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px 10px 0px 0px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.card-content h3 {
+    margin: 0 0 10px;
+    color: #333;
+}
+
+.card-content p {
+    color: #a7a9be;
+    margin-bottom: 10px;
+}
+
+.card-content ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.card-content ul li {
+    background: #fffffe;
+    margin-bottom: 5px;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.know-more-btn-container {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.know-more-btn {
+    height: 50px;
+    width: 150px;
+    margin-top: 50px;
+    border-radius: 10px;
+    font-size: large;
+    color: #fffffe;
+    background-color: #ff8906;
+    cursor: pointer;
+}
+
+.know-more-btn:hover {
+    transform: translateY(-10px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -221,7 +334,7 @@ body {
 }
 
 .footer {
-    background-color: #29303b;
+    background-color: #333;
     color: #fff;
     text-align: center;
     padding: 20px 0;
@@ -296,63 +409,68 @@ body {
 
 
 
-    @media (max-width: 768px) {
-        .nav-menu {
-            display: none;
-            flex-direction: column;
-            width: 100%;
-            position: absolute;
-            top: 50px;
-            left: 0;
-            background-color: #333;
-            padding: 0;
-        }
-
-        .nav-logo img {
-            width: 30px;
-            height: 30px;
-        }
-
-        .nav-logo a {
-            font-size: 20px;
-        }
-
-        .nav-menu.active {
-            display: flex;
-        }
-
-        .nav-item {
-            margin-left: 30px;
-        }
-
-        .nav-item a {
-            padding: 10px;
-            border-top: 1px solid #444;
-        }
-
-        .dropdown-items {
-            display: flex;
-        }
-
-        .head-image-1 {
-            float: right;
-        }
-
-        .headline-1 {
-            font-size: 32px;
-        }
-
-        .headline-2 {
-            font-size: 32px;
-            position: relative;
-            top: -650px;
-        }
-
-        .headline-3 {
-            font-size: 20px;
-        }
-
-        .main-product-img {
-            width: 300px;
-        }
+@media (max-width: 768px) {
+    .nav-menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        background-color: #333;
+        padding: 0;
     }
+
+    .nav-logo img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .nav-logo a {
+        font-size: 20px;
+    }
+
+    .nav-menu.active {
+        display: flex;
+    }
+
+    .nav-item {
+        margin-left: 30px;
+    }
+
+    .nav-item a {
+        padding: 10px;
+        border-top: 1px solid #444;
+    }
+
+    .dropdown-items {
+        display: flex;
+    }
+
+    .head-image-1 {
+        float: right;
+    }
+
+    .headline-1 {
+        font-size: 32px;
+    }
+
+    .headline-2 {
+        font-size: 32px;
+        position: relative;
+        top: -650px;
+    }
+
+    .headline-3 {
+        font-size: 20px;
+    }
+
+    .main-product-img {
+        width: 300px;
+    }
+
+    .card {
+        width: 400px;
+        border-radius: 10px;
+    }
+}
