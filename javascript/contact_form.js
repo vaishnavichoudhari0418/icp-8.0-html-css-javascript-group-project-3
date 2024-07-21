@@ -7,6 +7,6 @@ document.getElementById('submitBtn').addEventListener('click', function() {
         alert('Thank you for your message, ' + name + '! We will get back to you soon.');
         document.getElementById('contactForm').reset();
     } else {
-        alert('Please fill in all fields before submitting.');
+        alert('Please fill in all fields before submitting. ');
     }
 });
