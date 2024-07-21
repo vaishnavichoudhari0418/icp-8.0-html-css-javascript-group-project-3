@@ -126,38 +126,71 @@ h1{
     text-align: center;
     font-family: "Oswald", sans-serif;
     font-size: 50px;
+ 
 
 }
 .content_maths{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
     margin: 20px 40px;
+
 }
 .courses{
     height: 300px;
     width: 250px;
     background-color: #fffffe;
-    border: 1px solid black;
+    border: 10px ;
+    border-style: ridge;
+    border-color: #66ff33 #ff6347;
     margin-top: 40px; 
-    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    transition: 1s ease-in;
+    animation: pulse 2s;
    }
-.courses:hover{
-    height: 300px;
-    width: 250px;
-    background-color: #fffffe;
-    border: 1px solid black;
-    margin-top: 40px; 
-    border-radius: 20px;
-    animation: bounce-in 4s linear  infinite;
-}
+   @keyframes pulse {
+    0% {
+      transform: scale(0.9);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
 .course_img{
-    height: 60px;
+    height: 110px;
     display: block;
-    margin: 0 90px;
+    margin: 0 60px;
     padding: 10px;
+    text-decoration: none;
     
 }
+.course_img1{
+    height: 100px;
+    display: block;
+    margin: 0 20px;
+    padding: 10px; 
+}
+h2{
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 30px;
+    text-decoration: none;
+    }
+.card5{
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 40px;
+    }
+
     
 
     
