@@ -66,9 +66,9 @@
     display: flex;
       flex-direction: row;
       justify-content: space-around;
-      background-color: #404040;
+      background-color: #333;
       height: 590px;
-      width: 1518px;
+      width: auto;
       margin-top: 100px;
 
 }
@@ -97,6 +97,7 @@
     padding :25px;
     margin-top: 50px;
     border: 1px solid black;
+    border-radius: 20px;
 }
 @keyframes changeimg{
  0%{
@@ -112,6 +113,58 @@
     background-image: url("../images/science-page-images/history_of_science4.jpg");
 }
 }
+
+.container2{
+    background-color: #333;
+    height: 650px;
+    width: auto;
+    border: 1px solid black;
+
+}
+h1{
+    color: #fffffe;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-size: 50px;
+
+}
+.content_maths{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px 40px;
+}
+.courses{
+    height: 300px;
+    width: 250px;
+    background-color: #fffffe;
+    border: 1px solid black;
+    margin-top: 40px; 
+    border-radius: 20px;
+   }
+.courses:hover{
+    height: 300px;
+    width: 250px;
+    background-color: #fffffe;
+    border: 1px solid black;
+    margin-top: 40px; 
+    border-radius: 20px;
+    animation: bounce-in 4s linear  infinite;
+}
+.course_img{
+    height: 60px;
+    display: block;
+    margin: 0 90px;
+    padding: 10px;
+    
+}
+    
+
+    
+
+  
+  
+ 
 
 .navbar {
     display: flex;
@@ -256,13 +309,6 @@
     position: relative;
     top: -400px;
 }
-
-
-
-
-
-
-
 
 .main-product-img {
     width: 900px;
