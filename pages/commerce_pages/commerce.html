@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Commerce</title>
     <style>
-        @import url(https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap);
+       @import url(https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap);
 
         body {
             margin: 0;
@@ -159,8 +159,11 @@
             font-size: 60px;
             font-weight: bold;
             margin-bottom: 20px;
-            color: #ff6347;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: #ff8906;
+            text-shadow: #505050 10px 10px 10px;
         }
+
 
         .para {
             font-size: 28px;
@@ -195,6 +198,7 @@
             justify-content: space-around;
             background-color: #404040;
             border-radius: 10px;
+            box-shadow: #474646 -19px 5px 30px;
         }
 
         .sub-container {
@@ -219,6 +223,7 @@
             color: #ff8906;
             font-size: 35px;
             text-align: center;
+          
         }
 
         .sub-content {
@@ -262,11 +267,13 @@
 
         .sub-h1 {
             text-align: center;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
         }
 
         .card h2 {
             margin-top: 0;
             text-align: center;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
         }
 
         .card ul {
@@ -277,6 +284,7 @@
         .card li {
             padding: 5px;
             border-bottom: 1px solid #ddd;
+            
 
         }
 
@@ -321,13 +329,19 @@
             margin-left: auto;
             margin-right: auto;
             height: 40px;
-            margin-top: -20px;
+            margin-top: 20px;
         }
-        .ex:hover{
-            background-color: #fac588; 
+
+        .ex:hover {
+            background-color: #fac588;
             transition: 0.8s ease-out;
             width: 150px;
             height: 40px;
+        }
+        .ref{
+            height: 200px;
+            width:80%;
+            background-color: #fac588;
         }
     </style>
 </head>
@@ -336,7 +350,7 @@
     <nav class="navbar">
         <div class="nav-logo">
             <a href="index.html">
-                <img src="./images/index-page-images/brand-logo.png" alt="brand logo">
+                <img src="http://127.0.0.1:5500/images/index-page-images/brand-logo.png" alt="brand logo">
                 Career Crossroads
             </a>
         </div>
@@ -370,8 +384,8 @@
     <section class="header">
         <div class="header-container">
             <h1 class="h1">Commerce Streams</h1>
-            <p class="para">"Commerce education is the foundation for a successful career in the world of finance,
-                trade, and entrepreneurship."</p>
+            <p class="para"> <span class=star>"</span>Commerce education is the foundation for a successful career in the world of finance,
+                trade, and entrepreneurship.<span class=star>"</span></p> <hr>
             <blockquote>
                 <p class="headingbq">"Commerce is the large-scale organized system of activities, functions, procedures
                     and institutions"</p>
@@ -397,6 +411,7 @@
                 3)Business Studies <br>
                 4)Mathematics <br>
                 5)English <br>
+                6)Secretrail Practice <br>
             </p>
         </div>
         <div class="sub-container">
@@ -425,7 +440,7 @@
                     <li> Economics <span class="star">*</span></li>
                     <li> English <span class="star">*</span></li>
                     <li>Entrepreneurship</li>
-                    <li>Accounting and taxation</li>
+                    <li>Accounting and Taxation</li>
 
                 </ul>
             </div>
@@ -445,11 +460,16 @@
             </div>
 
         </div>
-    </div>
-    <div class="explore">
-        <a href="com_Exam.html"><button class="ex" id="explore">Explore</button></a>
-    </div>
+        <div class="explore">
+            <a href="com_Exam.html"><button class="ex" id="explore">Explore</button></a>
+        </div>
     
+    </div>
+   
+
+    <div class="ref">
+
+    </div>
 
 
 </body>
