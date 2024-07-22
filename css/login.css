@@ -183,43 +183,6 @@
   }
 }
 
-/* theme change */
-body {
-  transition: background-color 0.5s;
-}
-/******************/
-.dark-theme {
-  background-color: #282f31;
-  color: #fff;
-  margin:0;
-}
-.dark-h1 .form-wrapper__title{
-color: white;
-}
-.dark-writer{
-  color: white;
-}
-.light-theme {
-  background-color: #def2f1 ;
-  color: #333;
-}
-.light-h1{
-  color: #17252a;
-  }
-  .light-writer{
-    color: #17252a;
-  }
-.theme-changer {
-  position: fixed;
-  height: 40px;
-  margin-right: 10px;
-  top: 22px;
-  right: 15px;
-  z-index: 1;
-  cursor: pointer;
-}
-
-
 
 
 /*LOGIN FORM*/
@@ -250,7 +213,7 @@ body {
   align-items: center;
   justify-content: center;
   width: 100%;
-  background-color: white;
+  background-color: #DEF2F1;
   font-size: 20px;
 }
 
@@ -458,7 +421,7 @@ form .field.error .error {
   display: block;
 }
 
-form {
+form .pass-txt {
   text-align: left;
   margin-top: -10px;
   visibility: hidden;
