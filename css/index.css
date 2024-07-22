@@ -3,14 +3,14 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #DEF2F1;
+    background-color: #def2f1;
     box-sizing: border-box;
     font-family: poppins;
 }
 
 .head-image-1 {
     float: right;
-    opacity: calc(0.8);
+    opacity: calc(0.9);
 
 }
 
@@ -134,7 +134,7 @@ body {
 .headline-1 {
     font-size: 65px;
     font-weight: bolder;
-    color: #ff8906;
+    color: #def2f1 ;
     text-align: center;
     position: relative;
     top: -635px;
@@ -151,7 +151,7 @@ body {
 
 .headline-3 {
     font-size: 30px;
-    color: #fffffe;
+    color: #2b7a78;
     text-align: center;
     position: relative;
     top: -400px;
@@ -159,7 +159,7 @@ body {
 
 .explore-field {
     font: 50px bold;
-    color: #fffffe;
+    color: #2b7a78;
     text-align: center;
     top: -200px;
 }
@@ -177,7 +177,7 @@ body {
     object-fit: cover;
     display: block;
     margin: 0px auto;
-    border: 1px solid black;
+    border: 1px solid #2b7a78;
     border-radius: 20px;
     margin-top: 0px;
 }
@@ -201,7 +201,7 @@ body {
 }
 
 .product-img:hover {
-    box-shadow: 0 0 0 10px ;
+    box-shadow: 0 0 0 10px #2B7A78;
     transition: .3s ease;
 }
 
@@ -209,24 +209,24 @@ body {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    color: #fffffe;
+    color: #2b7a78;
 }
 
 .card-stream-heading {
-    color: #fffffe;
+    color: #2b7a78;
     margin-top: 80px;
     text-align: center;
     display: block;
 }
 
 .card-stream-heading-2 {
-    color: #fffffe;
+    color: #2b7a78;
     margin-left: 10px;
     margin-top: 50px;
 }
 
 .card-heading-content {
-    color: #a7a9be;
+    color: #2B7A78;
     margin-left: 10px;
 }
 
@@ -243,7 +243,7 @@ body {
 }
 
 .card {
-    background: #fffffe;
+    background: #2b7a78;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     margin: 10px;
@@ -265,7 +265,7 @@ body {
 
 .card-content h3 {
     margin: 0 0 10px;
-    color: #333;
+    color: #2b7a78;
 }
 
 .card-content p {
@@ -280,7 +280,7 @@ body {
 }
 
 .card-content ul li {
-    background: #fffffe;
+    background: #a7a9be;
     margin-bottom: 5px;
     padding: 8px;
     border-radius: 4px;
@@ -300,7 +300,7 @@ body {
     border-radius: 10px;
     font-size: large;
     color: #fffffe;
-    background-color: #ff8906;
+    background-color: #3aafa9;
     cursor: pointer;
 }
 
@@ -334,7 +334,7 @@ body {
 }
 
 .footer {
-    background-color: #333;
+    background-color: #2b7a78;
     color: #fffffe;
     text-align: center;
     padding: 10px 0;
@@ -402,7 +402,7 @@ body {
   }
   
   .light-theme {
-    background-color: #f9f9f9;
+    background-color: #def2f1;
     color: #333;
   }
   
