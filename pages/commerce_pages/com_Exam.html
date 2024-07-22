@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Entrance Exam</title>
+  <link rel="stylesheet" href="./../../css/exam.css">
+  <style>
+    body {
+    @import url(https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap);
+    margin: 0;
+    padding: 0;
+    background-color: #0f0e17;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+    position: relative;
+}
+
+.nav-logo a {
+    display: flex;
+    align-items: center;
+    color: #fffffe;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.nav-logo img {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+}
+
+.nav-logo a:hover {
+    color: #ff6347;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    margin-left: 20px;
+    position: relative;
+}
+
+.nav-item a {
+    color: #fffffe;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    transition: color 0.3s, background-color 0.3s, transform 0.3s;
+}
+
+.nav-item a:hover {
+    color: #ff6347;
+    background-color: #0f0e17;
+    border-radius: 5px;
+    transform: scale(1.1); 
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 5px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.dropdown-content a {
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+.dropdown-content a:hover {
+    background-color: #0f0e17;
+    color: #ff6347; 
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    opacity: 1;
+}
+
+.dropdown-content a:first-child {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.dropdown-content a:last-child {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.dropdown-items {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.dropdown-items span {
+    background-color: #fff;
+    border-radius: 2px;
+    display: block;
+    height: 3px;
+    margin: 5px 0;
+    width: 25px;
+    transition: all 0.3s;
+}
+
+
+@media (max-width: 768px) {
+    .nav-menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        background-color: #333;
+        padding: 0;
+    }
+
+    .nav-menu.active {
+        display: flex;
+    }
+
+    .nav-item {
+        margin-left: 30px;
+    }
+
+    .nav-item a {
+        padding: 10px;
+        border-top: 1px solid #444;
+    }
+
+    .dropdown-items {
+        display: flex;
+    }
+}
+header {
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    animation: fade-in 2s; 
+  }
+  h1 {
+    margin: 0;
+    font-size: 2em;
+  }
+  
+  h2 {
+    margin: 20px;
+    font-size: 1.5em;
+    color: #fff;
+    animation: fade-in 2s; 
+  }
+  
+  section {
+    padding: 20px;
+    border-bottom: 1px solid#404040;
+    animation: pulse 2s;
+  }
+  
+  h3 {
+    text-align: center;
+    font-size: 1.75em;
+    margin-bottom: 20px;
+    color: #fff;
+    animation: pulse 2s;
+  }
+  .content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px 40px;
+  }
+  
+  .text ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .text ul li {
+    background: #e9ecef;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    animation: pulse 2s;
+  }
+    
+  .course, .review {
+    flex: 1 1 20%;
+    background: #f8f9fa;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    align-items: start;
+    animation: pulse 2s;
+  }
+  
+  .course h4, .review h4 {
+    margin-top: 0;
+  }
+  
+  .course p, .review p {
+    font-size: 0.9em;
+    color: #6c757d;
+  }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="nav-logo">
+      <a href="./../../index.html">
+        <img src="./../../images/index-page-images/brand-logo.png" alt="brand logo">
+        Career Crossroads
+      </a>
+    </div>
+
+    <ul class="nav-menu" id="navMenu">
+      <li class="nav-item"><a href="./../../index.html">Home</a></li>
+      <li class="nav-item dropdown">
+        <a href="#" class="dropbtn">Streams</a>
+        <div class="dropdown-content">
+          <a href="./../science_pages/science_main.html">Science</a>
+          <a href="./../commerce.html">Commerce</a>
+          <a href="./arts_main.html">Arts</a>
+        </div>
+      </li>
+      <li class="nav-item"><a href="./../contact.html">Contact Us</a></li>
+      <li class="nav-item"><a href="./../login.html">Login</a></li>
+    </ul>
+    <div class="dropdown-items" id="dropdown-items">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </nav>
+  <header>
+    <h1>Commerce Exam</h1>
+    <h2>"The world of commerce is a kind of a purgatory itself. Share this Quote"</h2>
+  </header>
+  </section>
+  
+  <section id="courses">
+    <h3>Entrance Exams</h3>
+    <div class="text">
+      <div class="content">
+        <div class="course">
+          <img
+            src="https://imgs.search.brave.com/ryYJERm4bITgCJ3I_sWuD51MBlJ5jsT1-JDNwJP4V_I/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly93d3cu/cHJpbnRhc2lhLmlu/L21lZGlhL3d5c2l3/eWcvY2FfQ2hhcnRl/cmVkX0FjY291bnRh/bnRzX25ld19sb2dv/LnBuZw"
+            height="100px"><br /> <br />
+          CA
+
+          <p>
+            A Chartered Accountant (CA) is a professional accountant who has completed a rigorous training program and
+            passed a series of examinations in financial management, auditing, business strategy, and taxation <br>
+            Key Points: <br>
+
+          </p>
+
+        </div>
+        <div class="course">
+          <img
+            src="https://imgs.search.brave.com/c4S9azKr-mLliVHKJnJ0N7FaAYf_64AwsOFozT_B_SA/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy83/LzdiL0NNQWxvZ28s/X3RvX2JlX3VzZWRf/YnlfSW5kaWFuX0NN/QXMuanBn"
+            height="60px"><br /> <br />CMA
+          <p>Entrance Exam: Conducted by Institute of Cost Accountants of India (ICAI) for Cost and Management
+            Accountancy (CMA) course.</p>
+        </div>
+        <div class="course">
+          <img src="https://imgs.search.brave.com/0W751k1jkF9o9lpn-WCEcvHFRF-ZSC0pgRb3anaRa8w/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy8z/LzMyL0lDU0lfTG9n/by5QTkc"
+            height="60px"><br /> <br />Company Secretary Executive Entrance Exam (CSEET)
+          <p>The CSSET (Combined Shiksha Shastri Entrance Test) is a national-level entrance examination conducted by
+            Shri Lal Bahadur Shastri Rashtriya Sanskrit Vidyapeeth, New Delhi. The exam aims to provide admission to
+            B.Ed programs in Sanskrit at three Sanskrit deemed universities across India.</p>
+        </div>
+        
+        <div class="course">
+          <img
+            src="https://actuariesindia.org/themes/iai/images/logo.png"
+            height="60px"><br /><br /> ACET
+            <p>The Actuarial Common Entrance Test (ACET) is a national-level entrance exam conducted by the Institute of Actuaries of India (IAI) to screen students for admission to actuarial science courses. It is a mandatory exam for individuals who do not fall into the 18 categories of reserved seats for actuarial education and training.</p>
+        </div>
+        <div class="course">
+          <img src="https://ssc.nic.in/Content/library/assets/images/ssc-logo.png" height="60px"><br /><br /> SSC
+          <p>Purpose: To recruit personnel for Group B and C posts in various ministries, departments, and organizations
+            of the Government of India. <br>
+            Exams: SSC conducts various national-level exams, including:
+            SSC CGL (Combined Graduate Level) <br>
+            SSC CHSL (Combined Higher Secondary Level) <br>
+            SSC JE (Junior Engineer) <br>
+            SSC GD (General Duty) <br>
+            SSC MTS (Multi-Tasking Staff) <br>
+            SSC Stenographer</p>
+        </div>
+        <div class="course">
+          <img
+            src="https://imgs.search.brave.com/c4S9azKr-mLliVHKJnJ0N7FaAYf_64AwsOFozT_B_SA/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy83/LzdiL0NNQWxvZ28s/X3RvX2JlX3VzZWRf/YnlfSW5kaWFuX0NN/QXMuanBn"
+            height="60px"> <br /><br />CMA
+          <p> Entrance Exam: Conducted by Institute of Cost Accountants of India (ICAI) for Cost and Management
+            Accountancy (CMA) course.</p>
+        </div>
+        <div class="course">
+          <img src="https://warriorscreed.in/uploads/batch_image/capf_logo_230428092356.png" height="60px"><br /><br />
+          DUJAT <p>
+            Conducted by National Testing Agency (NTA) for admission to Bachelor of Management Studies (BMS), Bachelor of Business Administration (Financial Investment Analysis), and BA (Hons) in Business Economics offered by Delhi University.
+          </p>
+        </div>
+        <div class="course">
+          <img
+            src="https://cdn-aoaie.nitrocdn.com/RWIKubCiDzIFuqbqCxapoyZpCtYosTWT/assets/images/optimized/rev-ddc5a4d/nracetnic.in/wp-content/uploads/2023/09/nra-cet-2024-logo-150x150.png"
+            height="60px"><br /><br />NMIMS NPAT
+            <p>Conducted by Narsee Monjee Institute of Management Studies (NMIMS) for undergraduate programs like BBA, B.Com, BSc, BTech, and BA Hons.</p>
+        </div>
+        <div class="course">
+          <img
+            src="https://w7.pngwing.com/pngs/236/834/png-transparent-railway-recruitment-board-exam-rrb-rail-transport-south-eastern-railway-zone-indian-railways-others-miscellaneous-text-logo-thumbnail.png"
+            height="60px"><br /><br />
+            CUET <p>
+              Conducted by National Testing Agency (NTA) for undergraduate admissions at 44 central universities and 46 other institutions.
+            </p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  
+  <script src="./../../javascript/exam.js"></script>
+</body>
+
+</html>
