@@ -190,6 +190,30 @@ h2{
     text-align: center;
     margin-top: 40px;
     }
+    .loader {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #000000 url('../images/science-page-images/b91e1131ca20f6369aa68d21cb3a8960.gif');
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-position-y: center;
+        background-size: 26%;
+        transition: opacity 5s, visibility 5s;
+      }
+      
+      .loader--hidden {
+        opacity: 0;
+        visibility: hidden;
+      }
+      
+    
+      
 
     
 
