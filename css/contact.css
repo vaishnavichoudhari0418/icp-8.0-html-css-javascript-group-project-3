@@ -4,7 +4,7 @@ body {
     background-color: #0f0e17;
     padding: 0;
     margin: 0;
-    background: url(../images/index-page-images/head-image-1.jpg);
+    background-color: #def2f1;
     font-size: 16px;
     font-weight: 400;
     overflow-x: hidden;
@@ -26,7 +26,7 @@ body {
     text-align: center;
     font-size: 50px;
     margin-top: 110px;
-    color: white;
+    color: #2b7a78;
 }
 
 .form-fill {
@@ -42,30 +42,34 @@ body {
 }
 label{
     color: white;
+    
 }
 .input{
     width: 100%;
-    color: #fffffe;
-    border-radius: 5px;
+    color: #000000;
+    border-radius: 25px;
     border: 2px solid white;
     background-color: transparent;
-    margin: 20px;
-height: 40px;
+padding: 10px;
+font-size: 20px;
 }
 textarea{
     width: 100%;
     border: 2px solid white;
-    color: #fffffe;
-    border-radius: 5px;
+    color: #000000;
+    border-radius: 25px;
+    padding: 10px;
+    font-size: 20px;
     background-color: transparent;
+
 }
 .btn {
-    height: 100px;
-    width: 120px;
+    height: 60px;
+    width: 100%;
     margin: 20px;
     padding: 5px;
     cursor: pointer;
-    background-color: #000000;
+    background-color: #51d4ce;
     border-radius: 20px;
     border: none;
     color: #fffffe;
