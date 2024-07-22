@@ -5,7 +5,6 @@ body {
   padding: 0;
   background-color: #def2f1;
 }
-
 .navbar {
   display: flex;
   justify-content: space-between;
