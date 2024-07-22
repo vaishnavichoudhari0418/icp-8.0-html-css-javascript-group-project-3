@@ -4,6 +4,11 @@ body {
     background-color: #0f0e17;
     padding: 0;
     margin: 0;
+    background: url(../images/index-page-images/head-image-1.jpg);
+    font-size: 16px;
+    font-weight: 400;
+    overflow-x: hidden;
+
 }
 
 .up-body {
@@ -13,6 +18,7 @@ body {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    margin: 20px;
 
 }
 
@@ -27,21 +33,47 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 1px solid black;
     width: 300px;
     height: 350px;
-    box-shadow: 10px 10px 10px 0px black;
-    background-color: #fffffe;
+   box-shadow: 10px 10px 10px 0px transparent;
+    backdrop-filter: blur(2px);
     padding: 10px;
+   
 }
-
+label{
+    color: white;
+}
+.input{
+    width: 100%;
+    color: #fffffe;
+    border-radius: 5px;
+    border: 2px solid white;
+    background-color: transparent;
+    margin: 20px;
+height: 40px;
+}
+textarea{
+    width: 100%;
+    border: 2px solid white;
+    color: #fffffe;
+    border-radius: 5px;
+    background-color: transparent;
+}
 .btn {
-    width: 90px;
+    height: 100px;
+    width: 120px;
     margin: 20px;
     padding: 5px;
     cursor: pointer;
-    background-color: #ff8906;
+    background-color: #000000;
+    border-radius: 20px;
+    border: none;
     color: #fffffe;
+    font-size: 20px;
+}
+.btn:hover {
+    background-color: #ff6347;
+    transition: 0.5s;
 }
 
 .location {
@@ -56,14 +88,17 @@ body {
 }
 
 .title1 {
-    background-color: #fffffe;
+    
     width: 300px;
     height: 350px;
     text-align: center;
     padding: 5px;
+    background-color: transparent;
 }
 b{
     background-color: #c7c0ff;
+    padding: 10px;
+    width: 80px;
     
 }
 /* Small Devices */
