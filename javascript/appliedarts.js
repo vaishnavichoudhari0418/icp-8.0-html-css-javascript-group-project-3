@@ -63,6 +63,8 @@ themeIcon.addEventListener('click', () =>
         body.classList.add('light-theme');
         body.classList.remove('dark-themeheader');
         body.classList.add('light-themeheader');
+        body.classList.remove('h1dark');
+        body.classList.add('h1light');
         themeIcon.src = './../../images/arts-page-image/moon.png';
     } 
     else
@@ -71,6 +73,8 @@ themeIcon.addEventListener('click', () =>
         body.classList.add('dark-theme');
         body.classList.remove('light-themeheader');
         body.classList.add('dark-themeheader');
+        body.classList.remove('h1light');
+        body.classList.add('h1dark');
 
         themeIcon.src = './../../images/arts-page-image/sun.png';
     }
