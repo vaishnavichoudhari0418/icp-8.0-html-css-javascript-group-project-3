@@ -48,14 +48,19 @@ label{
     width: 100%;
     color: #000000;
     border-radius: 25px;
-    border: 2px solid white;
+    border: 2px solid #d8d8d8;
     background-color: transparent;
 padding: 10px;
 font-size: 20px;
 }
+::placeholder{
+    color: black;
+    margin-left: 0px;
+    
+}
 textarea{
     width: 100%;
-    border: 2px solid white;
+    border: 2px solid #d8d8d8;
     color: #000000;
     border-radius: 25px;
     padding: 10px;
