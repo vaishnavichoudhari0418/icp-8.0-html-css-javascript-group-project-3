@@ -110,6 +110,7 @@ b{
     width: 80px;
     
 }
+
 /* Small Devices */
 @media screen and (max-width: 600px) {
     .form-fill {
