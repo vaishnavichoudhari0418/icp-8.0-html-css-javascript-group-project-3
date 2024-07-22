@@ -4,33 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Applied Arts</title>
-    <link rel="stylesheet" href="./../../css/index.css">
     <link rel="stylesheet" href="./../../css/appliedarts.css">
 </head>
 <body>
+    <div class="theme-changer">
+        <img id="theme-icon" src="./../../images/arts-page-image/moon.png" alt="moon-icon">
+    </div>
     <nav class="navbar">
         <div class="nav-logo">
-            <a href="index.html">
+            <a href="./../../index.html">
                 <img src="./../../images/index-page-images/brand-logo.png" alt="brand logo">
                 Career Crossroads
             </a>
         </div>
-
-        <ul class="nav-menu">
-            <li class="nav-item"><a href="index.html">Home</a></li>
+    <ul class="nav-menu" id="navMenu">
+            <li class="nav-item"><a href="./../../index.html">Home</a></li>
             <li class="nav-item dropdown">
                 <a href="#" class="dropbtn">Streams</a>
                 <div class="dropdown-content">
-                    <a href="../../pages/science_pages/science_main.html">Science</a>
-                    <a href="../../pages/commerce_pages/commerce.html">Commerce</a>
-                    <a href="../../pages/arts_pages/arts_main.html">Arts</a>
+                    <a href="./../science_pages/science_main.html">Science</a>
+                    <a href="./../commerce.html">Commerce</a>
+                    <a href="./arts_main.html">Arts</a>
                 </div>
             </li>
-            <li class="nav-item"><a href="../../pages/contact.html">Contact Us</a></li>
-            <li class="nav-item"><a href="../../pages/login.html">Login</a></li>
+            <li class="nav-item"><a href="./../contact.html">Contact Us</a></li>
+            <li class="nav-item"><a href="./../login.html">Login</a></li>
         </ul>
-
-        <div class="hamburger-menu">
+        <div class="dropdown-items" id="dropdown-items">
             <span></span>
             <span></span>
             <span></span>
@@ -41,7 +41,6 @@
         <br>
         <h3>The arts and sciences are avatars of human creativity.<br> — Mae Jemison</h3>
     </header>
-    
     <section id="syllabus">
         <h3>Career Paths</h3>
         <div class="content">
@@ -55,7 +54,6 @@
                 </ul>
             </div>
         </div>
-    
       <!-- Professional Courses -->
 <div class="row" id="professional-courses">
     <div class="info">
@@ -182,6 +180,5 @@
 
     </section>
     <script src="./../../javascript/appliedarts.js"></script>
-    <script src="./../../javascript/index.js"></script>
 </body>
 </html>
