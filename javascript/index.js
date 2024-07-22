@@ -1,9 +1,10 @@
+/* navbar dropdown list */
 document.getElementById('dropdown-items').addEventListener('click', function() {
     document.getElementById('navMenu').classList.toggle('active');
 });
 
 
-
+/* course preview */
 function changeImage(imageName) {
     const mainImage = document.getElementById('main-product-img');
     mainImage.src=imageName;
