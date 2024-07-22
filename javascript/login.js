@@ -1,3 +1,11 @@
+/**Navbar0 */
+document.getElementById('dropdown-items').addEventListener('click', function() {
+    document.getElementById('navMenu').classList.toggle('active');
+});
+
+
+
+/**login from */
 const form = document.querySelector("form");
 eField = form.querySelector(".email"),
     eInput = eField.querySelector("input"),
