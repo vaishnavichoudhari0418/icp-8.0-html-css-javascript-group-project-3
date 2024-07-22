@@ -161,7 +161,6 @@ body {
     font: 50px bold;
     color: #fffffe;
     text-align: center;
-    position: relativ;
     top: -200px;
 }
 
@@ -173,7 +172,8 @@ body {
 
 
 .main-product-img {
-    height: 350px;
+    width: 1000px;
+    height: 400px;
     object-fit: cover;
     display: block;
     margin: 0px auto;
@@ -201,7 +201,7 @@ body {
 }
 
 .product-img:hover {
-    box-shadow: 0 0 0 10px rgba(0, 255, 255, 0.7);
+    box-shadow: 0 0 0 10px ;
     transition: .3s ease;
 }
 
@@ -329,31 +329,36 @@ body {
 
 
 .brand-img-footer {
-    height: 100px;
+    height: 70px;
     margin-bottom: 20px;
 }
 
 .footer {
     background-color: #333;
-    color: #fff;
+    color: #fffffe;
     text-align: center;
-    padding: 20px 0;
+    padding: 10px 0;
+    margin-top: 30px;
 }
 
 .footer-social-icons {
     margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
 }
 
 .footer-social-icons .social-icon {
     margin: 0 10px;
     text-decoration: none;
-    color: #fff;
+    color: #fffffe;
 }
 
 .footer-social-icons img {
     width: 30px;
     height: 30px;
-    filter: invert(100%);
+    
 }
 
 .footer-links {
@@ -373,6 +378,10 @@ body {
 
 .footer-copyright {
     font-size: 14px;
+}
+
+.top-icon {
+    height: 60px;
 }
 
 
