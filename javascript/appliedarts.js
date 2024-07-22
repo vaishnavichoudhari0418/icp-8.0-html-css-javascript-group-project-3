@@ -51,4 +51,29 @@ document.getElementById('btn-graduation-architecture').addEventListener('mousele
  {
   document.getElementById('tooltip-architecture').style.display = 'none';
 });
+/* Theme change */
+const themeIcon = document.getElementById('theme-icon');
+const body = document.body;
+
+themeIcon.addEventListener('click', () =>
+   {
+    if (body.classList.contains('dark-theme'))
+       {
+        body.classList.remove('dark-theme');
+        body.classList.add('light-theme');
+        body.classList.remove('dark-themeheader');
+        body.classList.add('light-themeheader');
+        themeIcon.src = './../../images/arts-page-image/moon.png';
+    } 
+    else
+     {
+        body.classList.remove('light-theme');
+        body.classList.add('dark-theme');
+        body.classList.remove('light-themeheader');
+        body.classList.add('dark-themeheader');
+
+        themeIcon.src = './../../images/arts-page-image/sun.png';
+    }
+}
+);
 
