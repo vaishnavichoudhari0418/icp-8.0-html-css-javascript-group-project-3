@@ -177,6 +177,8 @@ body {
         display: flex;
     }
 }
+
+
 header {
     background: #0f0e17;
     padding: 20px;
@@ -209,13 +211,13 @@ header {
   }
   .container {
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
    gap: 20px;
    padding: 20px;
    justify-content: center;
    flex-direction: row;
    justify-content: space-evenly;
+   margin-left: 0 px;
     
 }
 
@@ -224,11 +226,11 @@ header {
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-    width: 200px;
+    width: 180px;
     padding: 20px;
     cursor: pointer;
     transition: transform 0.3s, box-shadow 0.3s;
-    
+    margin-left: 0px;
 }
 .img1{
     height: 190px;
@@ -316,4 +318,87 @@ header {
     background-color:#f25f4c ;
   }
 
+/* normal device */
+@media screen and (min-width: 601px) and (max-width: 768px){
 
+
+}
+/* tablet device */
+@media screen and (min-width: 769px) and (max-width: 992px)
+{
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+       gap: 40px;
+       padding: 10px;
+       justify-content: center;
+       flex-direction: row;
+       justify-content: space-evenly;
+        
+      
+    }
+      .info-img img{
+        height: 150px;
+        width: 150px;
+        border-radius: 8px;
+        
+        
+      }
+      .row{
+        display: flex;
+        margin: 10px auto;
+        padding: 19px;
+        width: 80%;
+        justify-content: space-around;
+        border: #f25f4c solid 2px;
+        border-radius: 10px;
+        transition: 1s ease-in-out;
+        margin-top: 30px;
+        color: #fff;
+      }
+      .info p{
+        display: none;
+      }
+
+}
+ /* large device */
+@media screen and (min-width: 993px) and (max-width: 1200px){
+}
+  /* small device */
+@media screen and (max-width: 600px){
+  .container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+   gap: 20px;
+   padding: 10px;
+   justify-content: center;
+   flex-direction: row;
+   justify-content: space-evenly;
+    
+  
+}
+  .info-img img{
+    height: 0px;
+    width: 0px;
+    border-radius: 8px;
+    content: none;
+    
+  }
+  .row{
+    display: flex;
+    margin: 10px auto;
+    padding: 19px;
+    width: 50%;
+    justify-content: space-around;
+    border: #f25f4c solid 2px;
+    border-radius: 10px;
+    transition: 1s ease-in-out;
+    margin-top: 30px;
+    color: #fff;
+  }
+  .info p{
+    display: none;
+  }
+}
