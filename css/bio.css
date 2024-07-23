@@ -254,7 +254,7 @@ header {
     display: none;
     margin-top: 10px;
     font-size: 19px;
-    color: #2b7a78;
+    color: #1e2727;
     
 }
 .btn{
@@ -270,7 +270,7 @@ header {
 .ias-sc{
     text-align:center;
     margin: 40px;
-    color: #fffffe;
+    color: #2b7a78;
 }
 .button {
     display: inline-block;
@@ -346,18 +346,18 @@ header {
     padding: 19px;
     width: 90%;
     justify-content: space-around;
-    border: #f25f4c solid 2px;
+    border: #2b7a78 solid 2px;
     border-radius: 10px;
     transition: 1s ease-in-out;
     margin-top: 30px;
-    color: #fff;
+    color: #2b7a78;
   }
 
   .btn{
     margin: 5px;
     height: 30px;
     width: 80px;
-    background-color: #f25f4c;
+    background-color: #3aafa9;
     padding: 3px;
     border-radius: 5px  ;
     display: flex;
@@ -406,7 +406,7 @@ header {
         padding: 19px;
         width: 80%;
         justify-content: space-around;
-        border: #f25f4c solid 2px;
+        border: #3b7a78 solid 2px;
         border-radius: 10px;
         transition: 1s ease-in-out;
         margin-top: 30px;
@@ -456,7 +456,7 @@ header {
     padding: 19px;
     width: 50%;
     justify-content: space-around;
-    border: #f25f4c solid 2px;
+    border: #3b7a78 solid 2px;
     border-radius: 10px;
     transition: 1s ease-in-out;
     margin-top: 30px;
