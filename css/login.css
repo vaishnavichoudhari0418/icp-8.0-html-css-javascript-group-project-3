@@ -126,6 +126,12 @@
 }
 
 
+@media (max-width: 600px){
+      .theme-changer{
+        height: 20px;
+      }
+}
+
 @media (max-width: 768px) {
   .nav-menu {
       display: none;
@@ -166,20 +172,6 @@
 
   .head-image-1 {
       float: right;
-  }
-
-  .headline-1 {
-      font-size: 32px;
-  }
-
-  .headline-2 {
-      font-size: 32px;
-      position: relative;
-      top: -650px;
-  }
-
-  .headline-3 {
-      font-size: 20px;
   }
 }
 
