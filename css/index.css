@@ -245,7 +245,7 @@ body {
 .card {
     background: #2b7a78;
     border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
     margin: 10px;
     width: 500px;
     border-radius: 20px;
@@ -306,6 +306,66 @@ body {
 
 .know-more-btn:hover {
     transform: translateY(-10px);
+}
+
+
+
+
+
+
+
+.books-card-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px 10px;
+    
+}
+
+.books-card {
+    background-color: #2B7A78;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 50px;
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+}
+
+.books-card img {
+    border-radius: 10px;
+    height: 200px;
+    width: auto;
+    max-width: 100%;
+}
+
+.books-card h2 {
+    color: white;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.books-card p {
+    color: white;
+    font-size: 16px;
+}
+
+.books-card button {
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+}
+
+.books-card button:hover {
+    background-color: #f0f0f0;
 }
 
 
