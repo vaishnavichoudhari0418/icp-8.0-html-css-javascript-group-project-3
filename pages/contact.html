@@ -3,34 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact us</title>
+    <link rel="shortcut icon" type="x-icon" href="../images/index-page-images/brand-logo.png" />
     <link rel="stylesheet" href="./../css/index.css">
     <link rel="stylesheet" href="./../css/contact.css">
+    
 
 </head>
 <body>
     <nav class="navbar">
         <div class="nav-logo">
-            <a href="index.html">
+            <a href="./../index.html">
                 <img src="./../images/index-page-images/brand-logo.png" alt="brand logo">
                 Career Crossroads
             </a>
         </div>
     
         <ul class="nav-menu" id="navMenu">
-            <li class="nav-item"><a href="index.html">Home</a></li>
+            <li class="nav-item"><a href="./../index.html">Home</a></li>
             <li class="nav-item dropdown">
                 <a href="#" class="dropbtn">Streams</a>
                 <div class="dropdown-content">
-                    <a href="science.html">Science</a>
-                    <a href="commerce.html">Commerce</a>
-                    <a href="arts.html">Arts</a>
+                    <a href="./../pages/science.html">Science</a>
+                    <a href="./../pages/commerce.html">Commerce</a>
+                    <a href="./../pages/arts.html">Arts</a>
                 </div>
             </li>
-    
-            <li class="nav-item"><a href="./pages/contact.html">Contact Us</a></li>
-            <li class="nav-item"><a href="contact.html">Contact Us</a></li>
-            <li class="nav-item"><a href="./pages/login.html">Login</a></li>
+            <li class="nav-item"><a href="./../pages/contact.html">Contact Us</a></li>
+            <li class="nav-item"><a href="./../pages/login.html">Login</a></li>
         </ul>
     
         <div class="dropdown-items" id="dropdown-items">
@@ -39,26 +39,70 @@
             <span></span>
         </div>
     </nav>
-    
+    <h2 class="heading">...Contact <span>us...</span></h2>
+
     <div class="up-body">
-        <h2 class="heading">Contact us</h2>
+
         <form action="#">
           <div class="form-fill">
-            <label for="name" class="">Enter your name</label>  
-            <input type="text" name="name" id="name">  <br>
 
-            <label for="num">Enter Your Number</label>  
-            <input type="number" name="num" id="num">  <br>
+            <!-- <label for="name" class="">Enter Name</label>   -->
+            <input type="text" class="input" name="name" id="name" placeholder="Name">  <br>
 
-            <label for="email">Enter Your mail</label> 
-            <input type="email" name="email" id="email">  <br>
-            <label for="feedback">Your Feedback/Message</label> 
-            <textarea name="feedback" id="feedback" cols="30" rows="3"></textarea>
-            <button type="submit" class="btn">Submit</button>
+            <!-- <label for="num">Enter Number</label>  
+            <input type="tel" name="num" id="num" maxlength="10">  <br> -->
+
+            <!-- <label for="email">Enter Mail</label>  -->
+            <input type="email" class="input" name="email" id="email" placeholder="Email">  <br>
+            <!-- <label for="feedback">Message</label>  -->
+            <textarea name="msg" id="msg" cols="30" rows="3" placeholder="Message"></textarea>
+            <button type="submit" class="btn" id="submitBtn">Submit</button>
         </div>
         </form>
-
     </div>
+
+
+    
+    <footer class="footer">
+
+        <img class="brand-img-footer" src="./../images/index-page-images/brand-logo.png" alt="brand image" />
+
+        <div class="footer-social-icons">
+            <a href="https://www.facebook.com/" class="social-icon"><img
+                    src="./../images/index-page-images/faceboook-icon.png" alt="Facebook"></a>
+            <a href="https://www.instagram.com/" class="social-icon"><img
+                    src="./../images/index-page-images/instagram-icon.png" alt="Instagram"></a>
+            <a href="https://www.youtube.com/" class="social-icon"><img
+                    src="./../images/index-page-images/youtube-icon.png" alt="YouTube"></a>
+            <a href="https://x.com/?lang=en" class="social-icon"><img src="./../images/index-page-images/twitter-icon.png"
+                    alt="Twitter"></a>
+            <a href="https://www.linkedin.com/" class="social-icon"><img
+                    src="./../images/index-page-images/linked-icon.png" alt="LinkedIn"></a>
+        </div>
+
+        <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="index.html">Streams</a>
+            <a href="./pages/contact.html">Contact Us</a>
+            <a href="./pages/login.html">Login</a>
+        </div>
+
+        </div>
+        <div class="footer-copyright">
+            <p>&copy; 2024 Career Crossroads, Inc.</p>
+
+            <a href="./contact.html" class="social-icon"><img src="./../images/index-page-images/top-icon.png"
+                    alt="go to top"></a>
+            <p>GO TO TOP</p>
+
+        </div>
+
+    </footer>
+
+
+    <script src="./../javascript/contact_form.js"></script>
+    <script src="./../javascript/index.js"></script>
+
 
 </body>
 </html>
