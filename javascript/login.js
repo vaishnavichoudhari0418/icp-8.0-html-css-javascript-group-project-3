@@ -20,7 +20,7 @@ themeIcon.addEventListener('click', () =>
         body.classList.remove('dark-card')
         body.classList.add('light-card')
        
-        themeIcon.src = './../../images/arts-page-image/moon.png';
+        themeIcon.src = '../images/arts-page-image/moon.png';
     } 
     else
      {
@@ -32,7 +32,7 @@ themeIcon.addEventListener('click', () =>
         body.classList.add('dark-writer')
         body.classList.remove('light-card')
         body.classList.add('dark-card')
-        themeIcon.src = './../../images/arts-page-image/sun.png';
+        themeIcon.src = '../images/arts-page-image/sun.png';
     }
 }
 );
