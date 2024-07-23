@@ -245,7 +245,7 @@ body {
 .card {
     background: #2b7a78;
     border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
     margin: 10px;
     width: 500px;
     border-radius: 20px;
