@@ -575,12 +575,74 @@ margin:  5px 50px;
   height: 250px;
   }
   
-}
-
-@media (max-width: 901px) and (min-width: 1200px) {
+}@media (min-width: 901px) and (max-width: 1200px) {
+  /* Add your styles for larger devices here */
   
-
+  .h1 {
+    font-size: 45px;
+  }
+  
+  .container {
+    width: 800px;
+    height: 500px;
+  }
+  
+  .sub-container {
+    width: 700px;
+    height: 250px;
+  }
+  .content-img{
+    margin-top: 140px;
+     width: 320px;
+   }
+ .heading{
+ color:#17252a;
+ font-size: 25px;
+ text-align: center;
+ }
+ .sub-content{
+ font-size: 18px;
+ margin-left: 40px;
+ }
+.career-card{
+  height: 252px;
+}
+.main-videoblock{
+  padding: 20px 10px;
+  width: 900px;
+  height: 400px;
+  margin:30px ;
+}
+.main-video{
+  margin-top: 10px;
+padding: 2px 10px;
+  width: 860px;
+  height: 350px;
+}
+.videos-container{
+  width: 900px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:start;
+}
+.video-option{
+width: 350px;
+height: 250px;
+}
+}
+@media (min-width: 1200px){
+  videos-container{
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:start;
+  }
+  .video-option{
+    width: 300px;
+    height: 250px;
+    margin: 35px;
+    }
+}
  
-} 
   
 
