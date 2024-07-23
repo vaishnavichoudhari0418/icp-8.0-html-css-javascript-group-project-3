@@ -211,8 +211,44 @@ h2{
         opacity: 0;
         visibility: hidden;
       }
-      
+      .video_card{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin: 20px 30px;
+      }
+      .container3{
+        background-color: #333;
+        height: 700px;
+        width: auto;
+        border: 1px solid black;
     
+      }
+      .courses_vid{
+        height: 450px;
+        width: 400px;
+        background-color: #fffffe;
+        border: 2px solid #d9d9d9;
+        border-radius: 20px 20px 20px 20px;
+        margin-top: 20px; 
+        box-shadow:  black 0px 5px 15px;;
+        transition: 1s ease-in;
+        animation: pulse 2s;
+      }
+      .vid1{
+        height: 220px;
+        width: 400px;
+        border-radius: 20px 20px 20px 20px;
+      }
+      .vid_text{
+       margin: 0px 20px;
+       font-size: 16px;
+       color: black;
+       font-family: "Outfit", sans-serif;
+
+      }
+      
+     
       
 
     
