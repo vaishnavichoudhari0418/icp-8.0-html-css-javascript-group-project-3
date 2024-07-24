@@ -186,6 +186,7 @@ h2{
     text-align: center;
     margin-top: 30px;
     text-decoration: none;
+    color: #17252a;
     }
 .card5{
     font-family:'Times New Roman', Times, serif;
@@ -626,7 +627,7 @@ body {
         }
 
         .container4{
-            background-image: url('../images/science-page-images/back_img.jpg');
+          
         background-size: 100% 100%;
         background-attachment: fixed;
         padding-top:150px ;
@@ -639,6 +640,7 @@ body {
         font-family: "Oswald", sans-serif;
         color:beige;
         margin-left: 30px;
+        flex-wrap: wrap;
     
     }
     .text2{
@@ -646,12 +648,14 @@ body {
         font-family: "Oswald", sans-serif;
         color: beige;
         margin-left: 30px;
+        flex-wrap: wrap;
     }
     .text3{
         font-size: 30px;
         font-family: "Oswald", sans-serif;
         color: beige;
         margin-left: 30px;
+        flex-wrap: wrap;
     }
     .text4{
         font-size: 18px;
@@ -662,6 +666,7 @@ body {
         font-weight: 100;
         font-style: normal;
         margin-left: 30px;
+        flex-wrap: wrap;
     }
     .color{
        color: #2B7A78;
@@ -701,10 +706,17 @@ body {
         text-align: center;
     }
     .history_img {
-        width: 90%;
+        width: 80%;
         height: 90%;
         margin-top: 20px;
         margin-bottom: 20px;
+    }
+    .content_maths{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin: 20px 40px;
+    
     }
     .courses{
         height: 300px;
@@ -752,5 +764,10 @@ body {
         .loader {
             background-size: 60%; 
         }
+        .example{
+            visibility: hidden;
+            height: 1px;
+            width:1px
+          }
     
 }
