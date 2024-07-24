@@ -5,39 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Arts</title>
     <link rel="stylesheet" href="./../../css/art-main.css">
-   
+    <link rel="stylesheet" href="./../../css/footer.css">
 </head>
 <body>
-    <div class="theme-changer">
-        <img id="theme-icon" src="./../../images/arts-page-image/moon.png" alt="moon-icon">
-    </div>
+    <!--navbar-->
     <nav class="navbar">
         <div class="nav-logo">
-            <a href="./../../index.html">
-                <img src="./../../images/index-page-images/brand-logo.png" alt="brand logo">
+            <a href="index.html">
+                <img src="../../images/index-page-images/brand-logo.png" alt="brand logo">
                 Career Crossroads
             </a>
         </div>
 
-    <ul class="nav-menu" id="navMenu">
-            <li class="nav-item"><a href="./../../index.html">Home</a></li>
+        <ul class="nav-menu" id="navMenu">
+            <li class="nav-item"><a href="../index.html">Home</a></li>
             <li class="nav-item dropdown">
                 <a href="#" class="dropbtn">Streams</a>
                 <div class="dropdown-content">
-                    <a href="./../science_pages/science_main.html">Science</a>
+                    <a href="../science_pages/science_main.html">Science</a>
                     <a href="./../commerce.html">Commerce</a>
                     <a href="./arts_main.html">Arts</a>
                 </div>
             </li>
-            <li class="nav-item"><a href="./../contact.html">Contact Us</a></li>
-            <li class="nav-item"><a href="./../login.html">Login</a></li>
+
+            <li class="nav-item"><a href="./contact.html">Contact Us</a></li>
+            <li class="nav-item"><a href="#">Login</a></li>
+            <li><img class="theme-changer" id="theme-icon" src="../../images/arts-page-image/moon.png" alt="moon-icon"></li>
         </ul>
+
         <div class="dropdown-items" id="dropdown-items">
             <span></span>
             <span></span>
             <span></span>
         </div>
-    </nav>
+        </nav>
+<br>
+    <BR>
    <section class="header">
 <div class="header-container">
     <h1 class="h1">Art Stream</h1>
@@ -161,11 +164,58 @@
             <source type="video/mp4">
         </video>
    
-        <video poster="../../images/arts-page-image/after12.jpeg" controls class="video-option"onclick="ChangeVideo(3)">
+        <video poster="../../images/arts-page-image/after12.jpeg" controls class="video-option" onclick="ChangeVideo(3)">
             <source  type="video/mp4">
         </video>
     </div>
- 
+    <footer class="footer">
+
+        <img class="brand-img-footer" src="../../images/index-page-images/brand-logo.png" alt="brand image" />
+
+        <div class="footer-social-icons">
+
+            <a href="https://www.facebook.com/" class="social-icon" target="_blank">
+                <img src="../../images/index-page-images/faceboook-icon.png" alt="Facebook">
+            </a>
+
+            <a href="https://www.instagram.com/" class="social-icon" target="_blank">
+                <img src="../../images/index-page-images/instagram-icon.png" alt="Instagram">
+            </a>
+
+            <a href="https://www.youtube.com/" class="social-icon" target="_blank">
+                <img src="../../images/index-page-images/youtube-icon.png" alt="YouTube">
+            </a>
+
+            <a href="https://x.com/?lang=en" class="social-icon" target="_blank">
+                <img src="../../images/index-page-images/twitter-icon.png" alt="Twitter">
+            </a>
+
+            <a href="https://www.linkedin.com/" class="social-icon" target="_blank">
+                <img src="../../images/index-page-images/linked-icon.png" alt="LinkedIn">
+            </a>
+
+        </div>
+
+        <div class="footer-links">
+            <a href="../../index.html">Home</a>
+            <a href="../../index.html">Streams</a>
+            <a href="../contact.html">Contact Us</a>
+            <a href="../login.html">Login</a>
+        </div>
+
+        </div>
+        <div class="footer-copyright">
+            <p>&copy; 2024 Career Crossroads, Inc.</p>
+
+            <a href="index.html">
+                <img class="top-icon" src="../../images/index-page-images/top-icon.png" alt="go to top" />
+            </a>
+            <p>GO TO TOP</p>
+
+        </div>
+
+    </footer>
+
  <script src="./../../javascript/art-main.js"></script>
     <script src= "./../../javascript/index.js"></script>
 </body>

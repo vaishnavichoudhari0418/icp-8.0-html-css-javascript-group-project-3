@@ -51,7 +51,7 @@ body {
     display: flex;
     margin: 0;
     padding: 0;
-    margin-right: 60px;
+    margin-right: 80px;
 }
 
 .nav-item {
@@ -477,6 +477,7 @@ body {
   #theme-icon {
     width: 30px;
     height: 30px;
+    margin-top: 22px;
     transition: transform 0.5s;
   }
   
@@ -554,6 +555,7 @@ body {
 
     .dropdown-items {
         display: flex;
+        margin-right: 90px;
     }
 
     .head-image-1 {
@@ -584,7 +586,6 @@ body {
     }
 
     #theme-icon {
-        margin-right: 30px;
-        margin-top: 5px;
+        margin-top: 15px;
     }
 }
