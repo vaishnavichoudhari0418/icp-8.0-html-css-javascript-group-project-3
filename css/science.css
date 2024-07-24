@@ -749,5 +749,8 @@ body {
             margin: 10px 0;
             text-align: center;
         }
+        .loader {
+            background-size: 60%; 
+        }
     
 }
