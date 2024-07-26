@@ -122,6 +122,9 @@ body {
 .brand-img-footer {
   height: 70px;
   margin-bottom: 20px;
+  
+
+
 }
 
 .footer {
@@ -131,9 +134,9 @@ body {
   padding: 10px 0;
   margin-top: 30px;
   width: 100%;
-  margin-left: 0%;
-  margin-right: 0px;
-  margin-bottom: 0px;
+  margin: 0px;
+  
+  
 }
 
 .footer-social-icons {
@@ -243,7 +246,7 @@ body {
 
     .dropdown-items {
         display: flex;
-        
+
     }
 }
 /* theme change */
@@ -284,10 +287,9 @@ body {
 
 header {
     background:  #def2f1;
-<<<<<<< HEAD
+
     color:#2b7a78;
-=======
->>>>>>> ce0cf288359d5e057af1a28c1ee9284ceb7e8772
+
     padding: 20px;
     text-align: center;
     
@@ -337,11 +339,9 @@ header {
     padding: 20px;
     cursor: pointer;
     transition: transform 0.3s, box-shadow 0.3s;
-<<<<<<< HEAD
     border:#2b7a78 solid 2px;
-=======
     border: #2b7a78 solid 2px;
->>>>>>> ce0cf288359d5e057af1a28c1ee9284ceb7e8772
+
     
     
 }
@@ -367,11 +367,9 @@ header {
 .btn{
     text-align: center;
     border-radius:  6px;
-<<<<<<< HEAD
+
     color:#feffff;
-=======
     color:white;
->>>>>>> ce0cf288359d5e057af1a28c1ee9284ceb7e8772
     background-color: #3aafa9;
     margin: auto;
     border:none;
