@@ -122,6 +122,9 @@ body {
 .brand-img-footer {
   height: 70px;
   margin-bottom: 20px;
+  
+
+
 }
 
 .footer {
@@ -131,9 +134,9 @@ body {
   padding: 10px 0;
   margin-top: 30px;
   width: 100%;
-  margin-left: 0%;
-  margin-right: 0px;
-  margin-bottom: 0px;
+  margin: 0px;
+  
+  
 }
 
 .footer-social-icons {
@@ -243,7 +246,7 @@ body {
 
     .dropdown-items {
         display: flex;
-        
+
     }
 }
 /* theme change */
@@ -284,9 +287,12 @@ body {
 
 header {
     background:  #def2f1;
+
+    color:#2b7a78;
+
     padding: 20px;
     text-align: center;
-    color: #fff;
+    
   }
   h1 {
     margin: 0;
@@ -333,7 +339,9 @@ header {
     padding: 20px;
     cursor: pointer;
     transition: transform 0.3s, box-shadow 0.3s;
+    border:#2b7a78 solid 2px;
     border: #2b7a78 solid 2px;
+
     
     
 }
@@ -353,12 +361,14 @@ header {
     display: none;
     margin-top: 10px;
     font-size: 19px;
-    color: #555;
+    color: #1e2727;
     
 }
 .btn{
     text-align: center;
     border-radius:  6px;
+
+    color:#feffff;
     color:white;
     background-color: #3aafa9;
     margin: auto;
@@ -559,7 +569,7 @@ header {
     border-radius: 10px;
     transition: 1s ease-in-out;
     margin-top: 30px;
-    color: #fff;
+    color: #3b7a78;
   }
   .info p{
     display: none;
