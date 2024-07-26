@@ -149,6 +149,64 @@ body {
 }
 
 
+.brand-img-footer {
+  height: 70px;
+  margin-bottom: 20px;
+}
+
+.footer {
+  background-color: #2b7a78;
+  color: #fffffe;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 30px;
+}
+
+.footer-social-icons {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.footer-social-icons .social-icon {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #fffffe;
+}
+
+.footer-social-icons img {
+  width: 30px;
+  height: 30px;
+  
+}
+
+.footer-links {
+  margin-bottom: 20px;
+}
+
+.footer-links a {
+  color: #fff;
+  margin: 0 15px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.footer-copyright {
+  font-size: 14px;
+}
+
+.top-icon {
+  height: 60px;
+}
+
+
+
 /* theme change */
 body {
     transition: background-color 0.5s;
@@ -390,5 +448,100 @@ header {
     }
 
   }
+
+
+  /* normal device */
+@media screen and (min-width: 601px) and (max-width: 768px){
+
+
+}
+/* tablet device */
+@media screen and (min-width: 769px) and (max-width: 992px)
+{
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+       gap: 40px;
+       padding: 10px;
+       justify-content: center;
+       flex-direction: row;
+       justify-content: space-evenly;
+        
+      
+    }
+      .info-img img{
+        height: 150px;
+        width: 150px;
+        border-radius: 8px;
+        
+        
+      }
+      .row{
+        display: flex;
+        margin: 10px auto;
+        padding: 19px;
+        width: 80%;
+        justify-content: space-around;
+        border: #f25f4c solid 2px;
+        border-radius: 10px;
+        transition: 1s ease-in-out;
+        margin-top: 30px;
+        color: #fff;
+      }
+      .info p{
+        display: none;
+      }
+      
+        
+      
+      
+    
+
+
+
+
+
+}
+ /* large device */
+@media screen and (min-width: 993px) and (max-width: 1200px){
+}
+  /* small device */
+@media screen and (max-width: 600px){
+  .container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+   gap: 20px;
+   padding: 10px;
+   justify-content: center;
+   flex-direction: row;
+   justify-content: space-evenly;
+    
+  
+}
+  .info-img img{
+    height: 0px;
+    width: 0px;
+    border-radius: 8px;
+    content: none;
+    
+  }
+  .row{
+    display: flex;
+    margin: 10px auto;
+    padding: 19px;
+    width: 50%;
+    justify-content: space-around;
+    border: #f25f4c solid 2px;
+    border-radius: 10px;
+    transition: 1s ease-in-out;
+    margin-top: 30px;
+    color: #fff;
+  }
+  .info p{
+    display: none;
+  }
+}
 
 
