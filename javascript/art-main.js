@@ -1,15 +1,24 @@
+
+/**Navbar0 */
+document.getElementById('dropdown-items').addEventListener('click', function() {
+  document.getElementById('navMenu').classList.toggle('active');
+});
 function ChangeVideo(num){
   let mainVideo = document.getElementById("main-video");
     if (num == 1) {
         mainVideo.src = "../../art-video/career.mp4";
-      } else if (num == 2) {
+      }
+       else if (num == 2) 
+        {
         mainVideo.src = "../../art-video/after10inart.mp4";
-      } else if (num == 3) {
+      } 
+      else if (num == 3) {
         mainVideo.src = "../../art-video/career12.mp4";
       }
       mainVideo.load();
       mainVideo.play(); 
 }
+
 /* Theme change */
 const themeIcon = document.getElementById('theme-icon');
 const body = document.body;
